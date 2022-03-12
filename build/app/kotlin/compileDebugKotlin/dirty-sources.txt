@@ -1,1 +1,0 @@
-C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\kotlin\com\example\nepaltourisguide\MainActivity.kt
