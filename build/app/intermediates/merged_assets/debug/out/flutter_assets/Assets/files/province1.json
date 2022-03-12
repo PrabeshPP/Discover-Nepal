@@ -1,0 +1,122 @@
+{
+    "popular":[
+        {   "id":11,
+            "name":"Namche Bazar",
+            "image":"https://cdn.audleytravel.com/3602/2574/79/1325149-namche-bazaar-nepal.jpg",
+            "desc":"Namche Bazaar is popular with trekkers in the Khumbu region, especially for altitude acclimatization, and is the gateway to the high Himalaya. The town has a number of lodgings and stores catering to the needs of visitors as well as a number of internet cafés. There are German bakeries, little cafes and many restaurants. There is also an Irish pub, considered to be the remotest Irish Pub in the world.A popular local meal is yak steak.\nOn Saturday mornings, a weekly market is held in the centre of the village. There may also be a daily Tibet market where clothing and cheap Chinese consumer goods tend to be the main articles for sale.\nNamche has electricity from the nearby Thame-Namche hydropower plant (600 kW), opened in October 1995 near Thame."
+
+        },
+        {
+            "id":12,
+            "name":"Sagarmatha National Park",
+            "image":"https://tigerencounter.com/wp-content/uploads/2019/11/Sagarmatha-National-Park.jpg",
+            "desc":"Sagarmatha National Park is a national park in the Himalayas of eastern Nepal that is dominated by Mount Everest. It encompasses an area of 1,148 km2 (443 sq mi) in the Solukhumbu District and ranges in elevation from 2,845 to 8,848 m (9,334 to 29,029 ft) at the summit of Mount Everest. In the north, it shares the international border with Qomolangma National Nature Preserve of Tibet. In the east, it is adjacent to Makalu Barun National Park, and in the south it extends to Dudh Kosi river. It is part of the Sacred Himalayan Landscape"
+
+        },
+        {
+            "id":13,
+            "name":"Lukla",
+            "image":"https://cdn.audleytravel.com/3967/2834/79/1325148-lukla-nepal.jpg",
+            "desc":"Lukla is a small town in the Khumbu Pasanglhamu rural municipality of the Solukhumbu District in the Province No. 1 of north-eastern Nepal. Situated at 2,860 metres (9,383 ft), it is a popular place for visitors to the Himalayas near Mount Everest to arrive. Although Lukla means place with many goats and sheep, few are found in the area nowadays."
+
+        },
+        {
+            "id":14,
+            "name":"GauriSankar Conservation Area",
+            "image":"https://tigerencounter.com/wp-content/uploads/2020/03/Climate-Location-Gaurishankar-Conservation-area-1024x384.jpg",
+            "desc":"The Gaurishankar Conservation Area is rich in bio-diversity. A total of 16 varieties of vegetation have been identified in the area, including forests of Pinus roxburghii, Schima-Castanopsis, Alnus, Pinus wallichiana, Pinus patula, Rhododendron, Quercus lanata and Temperate mountain oak forest."
+
+
+        },
+        {
+
+            "id":15,
+            "name":"Kanyam",
+            "image":"https://www.welcomenepal.com/uploads/destination/ilam-csk-lt.jpeg",
+            "desc":"Kanyam is a town and a tourist destination in Ilam District of Nepal. This comes under Suryodaya Municipality in Ilam District in the Mechi Zone of eastern Nepal.\nKanyam is known for its green tea garden and picnic spots.It is known as queen of the eastern Nepal due to its natural environment.Every year thousands of tourists visit here because of its climate and greenery"
+        },
+        {
+
+            "id":16,
+            "name":"Todke Falls",
+            "image":"https://www.landnepal.com/wp-content/uploads/2020/05/Todke-Jharana-scaled.jpg",
+            "desc":"Todke waterfall (Nepali: टोड्के झरना)is located in the hills of Maimajhuwa near Mai Pokhari in Ilam districtThe fall feeds the Mai River. It has a height of 85 m.\nThe fall is accessible by trekking from the district headquarter.[5][6] The local government is initiating to increase tourism in the area by developing roads and lodging facilities near the waterfall."
+        },
+        {
+
+            "id":17,
+            "name":"Mai Pokhari",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/Mai_pokhari_ilam_10.jpg",
+            "desc":"Mai Pokhari is a wetland in Ilam District of Nepal that was designated a Ramsar site on 28 October 2008.[citation needed] It is a pilgrimage center for both Hindus and Buddhists. The lake within the wetland which reflects emerald waters has a circumference of about 1 kilometre (0.62 mi) and boats are operated. On the periphery of the lake there is the Maipokhari Botanical Garden of horticultural and ecological importance which houses a rock garden, an orchid house, plants collected from many regions of eastern Nepal, and a green house."
+        }
+    
+
+    ],
+    "More photos":[
+        {   
+            "img1":"https://trekebc.com/wp-content/uploads/2019/05/namche-bazar.jpg",
+            "img2":"https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2d/13/c9.jpg",
+            "img3":"https://cdn.kimkim.com/files/a/images/02bb3e10d44626c0c0b44f9ae18a43ca56041ab5/big-caac41d613561e3a1c620172d856c07a.jpg"
+        },
+        {
+            
+            "img1":"https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/79/12.jpg",
+            "img2":"https://file.ejatlas.org/img/Conflict/4211/sagarmatha-national-park-2.jpg",
+            "img3":"https://www.nepaltrekking.com/wp-content/uploads/2019/03/sagarmatha-national-park-975x540.jpg"
+
+        },
+        {
+            
+            "img1":"https://goodkarmatrekking.com/images/3E7A0411.jpg",
+            "img2":"https://www.luxuryholidaynepal.com/uploads/articles/images/luxury%20holidays%20nepal%20Lukla%20Airport%20everest%20trekking%20%20%282%29.jpg",
+            "img3":"https://cdn.kimkim.com/files/a/content_articles/featured_photos/d14f76ba6458f5ab4492de95db75db5ae0a1fd75/big-aecd83d63e438b5ee2cc915acdd5e779.jpg"
+
+        },
+        {
+            
+            "img1":"https://ntnc.org.np/sites/default/files/styles/slider_1920x1024/public/img_featured_project/2019-01/gcap_bishnu_pandey.jpg?itok=zcWUjuML",
+            "img2":"https://ntnc.org.np/sites/default/files/styles/news_480x360/public/img_featured_project/2019-01/acap_tashi_ghale.jpg?itok=jdE6xNRB",
+            "img3":"https://booking-manager-api.s3.eu-west-1.amazonaws.com/file-manager/page/image-gaurishankar-conservation-area.jpg"
+            
+        },
+        {
+            "img1":"https://nepaltourismhub.com/illion-asset/uploads/2020/01/D0ilHYkXcAIUeP8-1.jpg",
+            "img2":"https://photonepal.travel/public/uploads/preview/kanyam-23411612627504uezpjaq1ys.jpg",
+            "img3":"https://cdn.pixabay.com/photo/2017/09/13/03/57/kanyam-2744333_960_720.jpg"
+        },
+        {
+            "img1":"http://photos.wikimapia.org/p/00/06/75/05/95_big.jpg",
+            "img2":"http://photos.wikimapia.org/p/00/06/75/05/96_big.jpg",
+            "img3":"https://i1.wp.com/fra1.digitaloceanspaces.com/appharuspace/notesnepal/uploads/2020/12/rupse-falls-1.jpg?fit=696%2C700&ssl=1"
+        },
+        {
+            "img1":"https://s3.ap-south-1.amazonaws.com/chsfiles/media/8PQwBPWkwAHyjpkeNd2pYfZbT7Z9hzZjvb54rT37.jpeg",
+            "img2":"https://www.nepal-travel-guide.com/wp-content/uploads/2020/05/image-228.png",
+            "img3":"https://s3.ap-south-1.amazonaws.com/chsfiles/media/N3JX9kuKmVzKdT2lT5csoR8a5MFjgPZqjc7GBEYx.jpeg"
+        }
+    ],
+    "weathername":[
+        {
+            "name":"Namche"
+        },
+        {
+            "name":"Khumjung"
+        },
+        {
+            "name":"Lukla"
+        },
+        {
+            "name":"Ramechhap"
+        },
+        {
+            "name":"Kanyam"
+        },
+        {
+            "name":"Ilām"
+        },
+        {
+            "name":"Ilām"
+        }
+    ]
+
+}

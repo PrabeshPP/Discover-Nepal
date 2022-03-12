@@ -1,0 +1,76 @@
+{
+    "popular2":[
+        {   "id":1,
+            "name":"Koshi Tappu",
+            "image":"https://alliedadventure.com/assets/images/safari/koshi-tappu-wildlife-reserve.jpg",
+            "desc":"Koshi Tappu Wildlife Reserve lies on the floodplains of the Sapta Koshi River in the south-eastern Terai. The reserve was gazetted in 1976 to preserve habitat for the only remaining population of Wild buffalo, Arna (Bubalus arnee). The 176 sq. km. reserve is Nepal's smallest wildlife reserve. The eastern and western embankments of the Sapta Koshi River define the area. In 1987, Koshi Tappu was declared a Ramsar site, a wetland of international significance. Government of Nepal has declared the buffer zone ( 173.5 sq. km ) surrounding the reserve in 2004."
+
+        },
+        {
+            "id":2,
+            "name":"Janaki Temple",
+            "image":"https://www.iciclesadventuretreks.com/uploads/2019/07/janaki-mandir.jpg",
+            "desc":"Janaki Mandir is a Hindu temple in Janakpur in the Mithila region of Nepal, dedicated to the Hindu goddess Sita. It is an example of Hindu-Koiri Nepali architecture. It is often considered the most important model of Koiri architecture in Nepal. Fully built in bright white and constructed in an area of 1,480 square metres (4,860 sq. feet) in a mixed style of Mughal and Koiri domes.It is a three-storied structure made entirely of stone and marble. All its 60 rooms are decorated with the flag of Nepal, colored glass, engravings, and paintings, with beautiful lattice windows and turrets. According to legends and epics, King Janak ruled this area (called Videha) during the Ramayana period. His daughter Janaki (Sita), during her swyambar, had chosen Lord Rama as her husband, and become the queen of Ayodhya. Their marriage ceremony had occurred in the nearby temple which is also called vivaha mandap. The site was designated as a UNESCO tentative site in 2008."
+
+        },
+        {
+            "id":3,
+            "name":"Koshi Barrage",
+            "image":"https://www.khojnu.com/wp-content/uploads/2019/03/664_koshi-barrage.jpg",
+            "desc":"Kosi River is another place of visit. It is a trans-boundary river which flows through Bihar and Nepal. It is known as seven tributaries. The river basin is surrounded by several ridges. It separates from Yarlung Tsangpo River in the northern part, Gandaki in the western part and Mahananda in the eastern part. Over the last 250 years the Kosi River has changed its course. It has its unstable nature due to heavy silt. This river has two tributaries. Fishing is really an important enterprise in the river. It is a pleasant place to travel. There are several picnic spots like Bivha National Park, Koshi High Dam, Katiya Power project, Latona Church and Azgaibi Kali Mandir etc."
+
+
+        },
+        {
+            "id":4,
+            "name":"Parsa Wildlife Reserve",
+            "image":"https://www.allnepal.com/wp-content/uploads/2017/01/parsa-1.jpg",
+            "desc":"Parsa National Park is located in the south-central lowland Terai of Nepal. With the area of 637.37 sq.km. it has pristine sub-tropical jungle. In history, this area served as a vacation site for the Rana Rulers of the country. In 1984, it has been gazetted as a wildlife reserve to preserve the habitat for wild Asian elephant and a variety of other fauna. It is contiguous with Chitwan National Park in the west. In 2017 it was gazetted as National Park."
+
+
+
+        }
+    
+
+    ],
+    "More Photos":[
+        {
+            "img1":"https://assets-api.kathmandupost.com/thumb.php?src=https://assets-cdn.kathmandupost.com/uploads/source/news/2019/miscellaneous/1.-koshi-tappu-gateby-Pradeep-Meyangbo.jpg&w=900&height=601",
+            "img2":"https://www.nepaltrekways.com/images/package_image/102/koshi-tappu-wildlife-reserve-1491646028.jpg",
+            "img3":"https://omgnepal.com/wp-content/uploads/2020/07/koshi-tappu-wildli-life-reserve1505301650.jpg"
+        },
+        {
+            "img1":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a2/de/04/oyo-308-hotel-shubham.jpg?w=600&h=300&s=1",
+            "img2":"https://i0.wp.com/jankarinepal.com/wp-content/uploads/2019/10/5b446bbab0360-720x480.jpg?fit=720%2C480&ssl=1",
+            "img3":"https://glocalkhabar.com/wp-content/uploads/2016/12/Janaki-Temple.jpg"
+        },
+        {
+            "img1":"https://nepaltraveller.com/laravel-filemanager/photos/29/koshibarrage3.jpg",
+            "img2":"https://swtbook.files.wordpress.com/2014/08/koshi-barrage-8.jpg",
+            "img3":"https://i.pinimg.com/originals/2a/26/e0/2a26e048514826f4a4a1c81d555142a0.jpg"
+        },
+        {
+            "img1":"https://www.nepalvisitors.com/wp-content/uploads/2017/11/parsa.jpg",
+            "img2":"https://www.nepaltrekking.com/wp-content/uploads/2019/03/Parsa-national-park-975x540.jpg",
+            "img3":"https://www.mountainguidetrek.com/assets/images/safari/parsa-wildlife-reserve.jpg"
+        }
+    ],
+    "Weather Name":[
+        {
+            "name":"Bairawa"
+
+        },
+        {
+            "name":"Janakpur"
+        },
+        {
+
+            "name":"Kosi"
+        },
+
+        {
+            "name":"Parsa"
+        }
+    ]
+
+}

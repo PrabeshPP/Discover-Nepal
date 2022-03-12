@@ -1,0 +1,65 @@
+{
+  "Food":[
+      {
+          "name":"Dhido",
+          "image":"https://3.bp.blogspot.com/-Wj7DD8tPu4Q/W_ELZeMqevI/AAAAAAAARK8/U1RK-leY5K4DFoBvrPvNzNS4G8MiIRZEgCLcBGAs/s640/dhido%2Bmeal.jpg",
+          "desc":"Dhindo is a meal prepared in Nepal. It is prepared by gradually adding flour to boiling water while stirring. It is a staple meal in various parts of Nepal and the Sikkim and Darjeeling regions of India. Though it is a staple food in Nepal, dhindo has previously been seen as an inferior food compared to rice, and was associated with low status. The inclusion of dhindo on urban restaurant menus has coincided with a rise in the food's prestige, possible attributed to the changing perception of Nepal's indigenous crops, which are now recognised for their nutritional advantage."
+      },
+      {
+          "name":"Choila",
+          "image":"https://upload.wikimedia.org/wikipedia/commons/6/67/Chhwela.jpg",
+          "desc":"Chhwela (Nepali: छ्वेला) is a typical Newari dish that consists of spiced grilled buffalo meat.\n Though the dish is traditionally popular with water buffalo meat, nowadays mutton, chicken, duck meat and mushroom are also being used. Usually eaten with rice flakes (chiura), this dish is typically very spicy, hot and mouth watering.\nIt is considered a necessary part of the diet in festivals among the Newar community along with several other ingredients. It is also an important ingredient of Samay Baji."
+      },
+      {
+          "name":"Dal bhat",
+          "image":"https://gallery.thelongestwayhome.com/img/s3/v43/p376756489-5.jpg",
+          "desc":"Nepali Dal Bhat or Dahl Bhat, is a dish made of lentils and rice. It is considered to be the national dish of Nepal. One can see how this comforting combination of flavors and heat, would be perfect on a cold day."
+      },
+      {
+          "name":"Bara",
+          "image":"https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/52/71/73/5M1NG6h3SIKGKlhhKM9f_Nepali%20Bara.jpg",
+          "desc":"Bara is a kind of pancakes made by the Newari people of Nepal. The Newaris are an indigenous group of locals in the Kathmandu valley. Wo is made with ground lentil (green or black) batter during the 'Sithi Nakha', a Newari festival. These Dal patties are light and perfect for snacks. For non-vegetarians, Bara can also be added with minced chicken and battered egg."
+      },
+      {
+          "name":"Sel Roti",
+          "image":"https://assets-cdn.kathmandupost.com/uploads/source/news/2019/lifestyle/ThomasHEaton.jpg",
+          "desc":"A fusion of doughnut and bagel, Sel Roti is one of the most sought after snack in Nepal during festivals like Tihar and Dashain. It is a circular rice flour bread which is deeply fried to make it crunchy on the outside and soft on the inside. It is crispy and sweet and tastes best with yoghurt or veggies. Being a popular festival food in Nepal, this dish is a must on your culinary bucket list. "
+      },
+      {
+          "name":"Yomari",
+          "image":"https://images.squarespace-cdn.com/content/53ecd1bde4b0a6f9524254f8/1576247042864-3A2J8029YF4X6LS1VZJG/yomari-punhi-festival-nepal-2019.jpg",
+          "desc":"A sweet dish prepared from rice dough and stuffed with a sweet paste made of coconut, sesame seeds and molasses, Yomari is a festival food in Nepal, made only during the festival of Yomari Punhi. This festival is celebrated each year in the winters to thank the Gods for a good harvest. This dish is very famous is Kathmandu and you might also find its spicy version made with lentil. "
+      },
+      {
+        "name":"Gundruk",
+        "image":"https://2.bp.blogspot.com/-uIf9sYiSCM0/WvN2lkw4SwI/AAAAAAAAFl4/NC4GkON7m0M3d0dE-LPhNWJYlbD_NtfuACLcBGAs/s1600/IMG_7751_E.JPG",
+        "desc":"This is a condiment or a side dish often accompanied by Dhido. It is considered as the national food in Nepal. It is actually fermented or pickled green and leafy vegetables. It is made by storing mustard, radish and cauliflower in an earthen pot which is then left to be pickled until the veggies inside release acidic juices and have undergone fermentation."
+    },
+    {
+        "name":"Gorkhali Lamb",
+        "image":"https://1.bp.blogspot.com/-AhWzr5sdRLs/X25hfjKWlOI/AAAAAAAAAT8/1sM9ui-_GhYxQK4ZOt5GA7uHpb59xCiJgCLcBGAsYHQ/w1200-h630-p-k-no-nu/Nepalese_mutton_Curry_recipe_edited1.jpg",
+        "desc":"It is a collection of assorted flavours all stuffed into one package. Gorkhali lamb is essentially a curry dish which is prepared by slow-cooking the lamb in the curry along with potatoes and onions. It is then removed from the curry, grilled and covered with a layer of spicy chilli mix giving it the intense flavour. It is then put back into to curry to cook for a bit longer. Lamb is one of the favourites of the Nepalese and this dish will surely be something worth trying."
+    },
+    {
+        "name":"Juju Dhau",
+        "image":"https://nepal8thwonder.com/wp-content/uploads/2020/05/Juju-Dhau-The-King-Yogurt-from-Bhaktapur-Nepal.jpg",
+        "desc":"Also known as the 'king curd', Juju Dhau is a type of yoghurt. It is a creamy, thick and sweet dish normally preferred as a dessert. Made with buffalo milk, this dish is very famous among the Newaris people and is a must try if you are visiting Bhaktapur. You'll find a lot of street-side vendors selling Juju Dhau in Bhaktapur."
+    },
+    {
+        "name":"Chatamari",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/e/e9/Meat_Chatamari.jpg",
+        "desc":"Normally referred to as the Nepali Pizza, this Newari snack is actually not so close to a pizza when it comes to taste. It's rather a rice flour crepe cooked with toppings including coriander, minced meat, eggs, chopped onions, chillies and a lot of spices. It is only because of its round shape and appearance that it is referred to as a type of pizza. Quite a different dih amongst other food in Nepal, this one is a must try. "
+    },
+    {
+        "name":"Samay Baji",
+        "image":"https://finmail-site-bucket.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2021/03/23142517/1-5.jpg",
+        "desc":"One of the main dishes in Nepalese food, the Samay Baji is a gourmet dish that has been passed on along the generations of Nepali people. It is a platter containing barbecued buffalo meat, boiled egg along with beaten rice and spicy potato salad. It is a traditional dish that is served on auspicious occasions in the Newari culture. This dish is a must try in Nepal, if you are a person who loves perfectly cooked meat and spicy dishes."
+    },
+    {
+        "name":"Tongba",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/8/81/Tongba_-_Nepalese_fermented_millet_beer.jpg",
+        "desc":"Better known as 'Tibetan Hot Beer', this is a very famous local beer that you'll find people sipping from a cast like vessels through bamboo straws. It is millet-based alcohol and is also a traditional drink in Nepal. It is a warm beverage and is normally consumed in large quantities."
+    }
+  ]
+    
+}

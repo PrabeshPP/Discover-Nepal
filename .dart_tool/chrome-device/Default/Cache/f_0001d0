@@ -1,0 +1,502 @@
+define(['dart_sdk', 'packages/flutter/src/rendering/proxy_box.dart', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/rendering/custom_paint.dart'], (function load__packages__velocity_x__src__flutter__clippers__vx_arc_dart(dart_sdk, packages__flutter__src__rendering__proxy_box$46dart, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__rendering__custom_paint$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const ui = dart_sdk.ui;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const proxy_box = packages__flutter__src__rendering__proxy_box$46dart.src__rendering__proxy_box;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const custom_paint = packages__flutter__src__rendering__custom_paint$46dart.src__rendering__custom_paint;
+  var vx_arc = Object.create(dart.library);
+  var $forEach = dartx.forEach;
+  dart._checkModuleNullSafetyMode(true);
+  var T = {
+    CustomClipperOfPath: () => (T.CustomClipperOfPath = dart.constFn(proxy_box.CustomClipper$(ui.Path)))(),
+    VxClipShadowTovoid: () => (T.VxClipShadowTovoid = dart.constFn(dart.fnType(dart.void, [vx_arc.VxClipShadow])))()
+  };
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: vx_arc.VxEdge.prototype,
+        [_name$]: "VxEdge.TOP",
+        index: 0
+      });
+    },
+    get C1() {
+      return C[1] = dart.const({
+        __proto__: vx_arc.VxEdge.prototype,
+        [_name$]: "VxEdge.RIGHT",
+        index: 1
+      });
+    },
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: vx_arc.VxEdge.prototype,
+        [_name$]: "VxEdge.BOTTOM",
+        index: 2
+      });
+    },
+    get C3() {
+      return C[3] = dart.const({
+        __proto__: vx_arc.VxEdge.prototype,
+        [_name$]: "VxEdge.LEFT",
+        index: 3
+      });
+    },
+    get C4() {
+      return C[4] = dart.constList([C[0] || CT.C0, C[1] || CT.C1, C[2] || CT.C2, C[3] || CT.C3], vx_arc.VxEdge);
+    },
+    get C5() {
+      return C[5] = dart.const({
+        __proto__: vx_arc.VxArcType.prototype,
+        [_name$]: "VxArcType.CONVEY",
+        index: 0
+      });
+    },
+    get C6() {
+      return C[6] = dart.const({
+        __proto__: vx_arc.VxArcType.prototype,
+        [_name$]: "VxArcType.CONVEX",
+        index: 1
+      });
+    },
+    get C7() {
+      return C[7] = dart.constList([C[5] || CT.C5, C[6] || CT.C6], vx_arc.VxArcType);
+    },
+    get C8() {
+      return C[8] = dart.constList([], vx_arc.VxClipShadow);
+    },
+    get C11() {
+      return C[11] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "clipper",
+        [_Location_column]: 9,
+        [_Location_line]: 169,
+        [_Location_file]: null
+      });
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 9,
+        [_Location_line]: 170,
+        [_Location_file]: null
+      });
+    },
+    get C10() {
+      return C[10] = dart.constList([C[11] || CT.C11, C[12] || CT.C12], widget_inspector._Location);
+    },
+    get C9() {
+      return C[9] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[10] || CT.C10,
+        [_Location_name]: null,
+        [_Location_column]: 14,
+        [_Location_line]: 168,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/clippers/vx_arc.dart"
+      });
+    },
+    get C15() {
+      return C[15] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "painter",
+        [_Location_column]: 7,
+        [_Location_line]: 167,
+        [_Location_file]: null
+      });
+    },
+    get C16() {
+      return C[16] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 7,
+        [_Location_line]: 168,
+        [_Location_file]: null
+      });
+    },
+    get C14() {
+      return C[14] = dart.constList([C[15] || CT.C15, C[16] || CT.C16], widget_inspector._Location);
+    },
+    get C13() {
+      return C[13] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[14] || CT.C14,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 166,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/clippers/vx_arc.dart"
+      });
+    }
+  }, false);
+  var C = Array(17).fill(void 0);
+  var I = ["package:velocity_x/src/flutter/clippers/vx_arc.dart"];
+  var _name$ = dart.privateName(vx_arc, "_name");
+  vx_arc.VxEdge = class VxEdge extends core.Object {
+    toString() {
+      return this[_name$];
+    }
+  };
+  (vx_arc.VxEdge.new = function(index, _name) {
+    this.index = index;
+    this[_name$] = _name;
+    ;
+  }).prototype = vx_arc.VxEdge.prototype;
+  dart.addTypeTests(vx_arc.VxEdge);
+  dart.addTypeCaches(vx_arc.VxEdge);
+  dart.setLibraryUri(vx_arc.VxEdge, I[0]);
+  dart.setFieldSignature(vx_arc.VxEdge, () => ({
+    __proto__: dart.getFields(vx_arc.VxEdge.__proto__),
+    index: dart.finalFieldType(core.int),
+    [_name$]: dart.finalFieldType(core.String)
+  }));
+  dart.defineExtensionMethods(vx_arc.VxEdge, ['toString']);
+  vx_arc.VxEdge.TOP = C[0] || CT.C0;
+  vx_arc.VxEdge.RIGHT = C[1] || CT.C1;
+  vx_arc.VxEdge.BOTTOM = C[2] || CT.C2;
+  vx_arc.VxEdge.LEFT = C[3] || CT.C3;
+  vx_arc.VxEdge.values = C[4] || CT.C4;
+  vx_arc.VxArcType = class VxArcType extends core.Object {
+    toString() {
+      return this[_name$];
+    }
+  };
+  (vx_arc.VxArcType.new = function(index, _name) {
+    this.index = index;
+    this[_name$] = _name;
+    ;
+  }).prototype = vx_arc.VxArcType.prototype;
+  dart.addTypeTests(vx_arc.VxArcType);
+  dart.addTypeCaches(vx_arc.VxArcType);
+  dart.setLibraryUri(vx_arc.VxArcType, I[0]);
+  dart.setFieldSignature(vx_arc.VxArcType, () => ({
+    __proto__: dart.getFields(vx_arc.VxArcType.__proto__),
+    index: dart.finalFieldType(core.int),
+    [_name$]: dart.finalFieldType(core.String)
+  }));
+  dart.defineExtensionMethods(vx_arc.VxArcType, ['toString']);
+  vx_arc.VxArcType.CONVEY = C[5] || CT.C5;
+  vx_arc.VxArcType.CONVEX = C[6] || CT.C6;
+  vx_arc.VxArcType.values = C[7] || CT.C7;
+  var height$ = dart.privateName(vx_arc, "VxArcClipper.height");
+  var edge$ = dart.privateName(vx_arc, "VxArcClipper.edge");
+  var arcType$ = dart.privateName(vx_arc, "VxArcClipper.arcType");
+  var _getTopPath = dart.privateName(vx_arc, "_getTopPath");
+  var _getRightPath = dart.privateName(vx_arc, "_getRightPath");
+  var _getBottomPath = dart.privateName(vx_arc, "_getBottomPath");
+  var _getLeftPath = dart.privateName(vx_arc, "_getLeftPath");
+  vx_arc.VxArcClipper = class VxArcClipper extends proxy_box.CustomClipper$(ui.Path) {
+    get height() {
+      return this[height$];
+    }
+    set height(value) {
+      super.height = value;
+    }
+    get edge() {
+      return this[edge$];
+    }
+    set edge(value) {
+      super.edge = value;
+    }
+    get arcType() {
+      return this[arcType$];
+    }
+    set arcType(value) {
+      super.arcType = value;
+    }
+    getClip(size) {
+      switch (this.edge) {
+        case C[0] || CT.C0:
+        {
+          return this[_getTopPath](size);
+        }
+        case C[1] || CT.C1:
+        {
+          return this[_getRightPath](size);
+        }
+        case C[2] || CT.C2:
+        {
+          return this[_getBottomPath](size);
+        }
+        case C[3] || CT.C3:
+        {
+          return this[_getLeftPath](size);
+        }
+        default:
+        {
+          return this[_getRightPath](size);
+        }
+      }
+    }
+    [_getBottomPath](size) {
+      let path = ui.Path.new();
+      if (this.arcType === vx_arc.VxArcType.CONVEX) {
+        path.lineTo(0.0, size.height - this.height);
+        path.quadraticBezierTo(size.width / 4, size.height, size.width / 2, size.height);
+        path.quadraticBezierTo(size.width * 3 / 4, size.height, size.width, size.height - this.height);
+        path.lineTo(size.width, 0.0);
+      } else {
+        path.moveTo(0.0, size.height);
+        path.quadraticBezierTo(size.width / 4, size.height - this.height, size.width / 2, size.height - this.height);
+        path.quadraticBezierTo(size.width * 3 / 4, size.height - this.height, size.width, size.height);
+        path.lineTo(size.width, 0.0);
+        path.lineTo(0.0, 0.0);
+      }
+      path.close();
+      return path;
+    }
+    [_getTopPath](size) {
+      let path = ui.Path.new();
+      if (this.arcType === vx_arc.VxArcType.CONVEX) {
+        path.moveTo(0.0, this.height);
+        path.quadraticBezierTo(size.width / 4, 0.0, size.width / 2, 0.0);
+        path.quadraticBezierTo(size.width * 3 / 4, 0.0, size.width, this.height);
+        path.lineTo(size.width, size.height);
+        path.lineTo(0.0, size.height);
+      } else {
+        path.quadraticBezierTo(size.width / 4, this.height, size.width / 2, this.height);
+        path.quadraticBezierTo(size.width * 3 / 4, this.height, size.width, 0.0);
+        path.lineTo(size.width, size.height);
+        path.lineTo(0.0, size.height);
+      }
+      path.close();
+      return path;
+    }
+    [_getLeftPath](size) {
+      let path = ui.Path.new();
+      if (this.arcType === vx_arc.VxArcType.CONVEX) {
+        path.moveTo(this.height, 0.0);
+        path.quadraticBezierTo(0.0, size.height / 4, 0.0, size.height / 2);
+        path.quadraticBezierTo(0.0, size.height * 3 / 4, this.height, size.height);
+        path.lineTo(size.width, size.height);
+        path.lineTo(size.width, 0.0);
+      } else {
+        path.quadraticBezierTo(this.height, size.height / 4, this.height, size.height / 2);
+        path.quadraticBezierTo(this.height, size.height * 3 / 4, 0.0, size.height);
+        path.lineTo(size.width, size.height);
+        path.lineTo(size.width, 0.0);
+      }
+      path.close();
+      return path;
+    }
+    [_getRightPath](size) {
+      let path = ui.Path.new();
+      if (this.arcType === vx_arc.VxArcType.CONVEX) {
+        path.moveTo(size.width - this.height, 0.0);
+        path.quadraticBezierTo(size.width, size.height / 4, size.width, size.height / 2);
+        path.quadraticBezierTo(size.width, size.height * 3 / 4, size.width - this.height, size.height);
+        path.lineTo(0.0, size.height);
+        path.lineTo(0.0, 0.0);
+      } else {
+        path.moveTo(size.width, 0.0);
+        path.quadraticBezierTo(size.width - this.height, size.height / 4, size.width - this.height, size.height / 2);
+        path.quadraticBezierTo(size.width - this.height, size.height * 3 / 4, size.width, size.height);
+        path.lineTo(0.0, size.height);
+        path.lineTo(0.0, 0.0);
+      }
+      path.close();
+      return path;
+    }
+    shouldReclip(oldClipper) {
+      T.CustomClipperOfPath().as(oldClipper);
+      let oldie = vx_arc.VxArcClipper.as(oldClipper);
+      return this.height !== oldie.height || this.arcType !== oldie.arcType || this.edge !== oldie.edge;
+    }
+  };
+  (vx_arc.VxArcClipper.new = function(height, edge, arcType) {
+    this[height$] = height;
+    this[edge$] = edge;
+    this[arcType$] = arcType;
+    vx_arc.VxArcClipper.__proto__.new.call(this);
+    ;
+  }).prototype = vx_arc.VxArcClipper.prototype;
+  dart.addTypeTests(vx_arc.VxArcClipper);
+  dart.addTypeCaches(vx_arc.VxArcClipper);
+  dart.setMethodSignature(vx_arc.VxArcClipper, () => ({
+    __proto__: dart.getMethods(vx_arc.VxArcClipper.__proto__),
+    getClip: dart.fnType(ui.Path, [ui.Size]),
+    [_getBottomPath]: dart.fnType(ui.Path, [ui.Size]),
+    [_getTopPath]: dart.fnType(ui.Path, [ui.Size]),
+    [_getLeftPath]: dart.fnType(ui.Path, [ui.Size]),
+    [_getRightPath]: dart.fnType(ui.Path, [ui.Size]),
+    shouldReclip: dart.fnType(core.bool, [dart.nullable(core.Object)])
+  }));
+  dart.setLibraryUri(vx_arc.VxArcClipper, I[0]);
+  dart.setFieldSignature(vx_arc.VxArcClipper, () => ({
+    __proto__: dart.getFields(vx_arc.VxArcClipper.__proto__),
+    height: dart.finalFieldType(core.double),
+    edge: dart.finalFieldType(vx_arc.VxEdge),
+    arcType: dart.finalFieldType(vx_arc.VxArcType)
+  }));
+  var child$ = dart.privateName(vx_arc, "VxArc.child");
+  var height$0 = dart.privateName(vx_arc, "VxArc.height");
+  var edge$0 = dart.privateName(vx_arc, "VxArc.edge");
+  var arcType$0 = dart.privateName(vx_arc, "VxArc.arcType");
+  var clipShadows$ = dart.privateName(vx_arc, "VxArc.clipShadows");
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  vx_arc.VxArc = class VxArc extends framework.StatelessWidget {
+    get child() {
+      return this[child$];
+    }
+    set child(value) {
+      super.child = value;
+    }
+    get height() {
+      return this[height$0];
+    }
+    set height(value) {
+      super.height = value;
+    }
+    get edge() {
+      return this[edge$0];
+    }
+    set edge(value) {
+      super.edge = value;
+    }
+    get arcType() {
+      return this[arcType$0];
+    }
+    set arcType(value) {
+      super.arcType = value;
+    }
+    get clipShadows() {
+      return this[clipShadows$];
+    }
+    set clipShadows(value) {
+      super.clipShadows = value;
+    }
+    build(context) {
+      let clipper = new vx_arc.VxArcClipper.new(this.height, this.edge, this.arcType);
+      return new basic.CustomPaint.new({painter: new vx_arc.VxClipShadowPainter.new(clipper, this.clipShadows), child: new basic.ClipPath.new({clipper: clipper, child: this.child, $creationLocationd_0dea112b090073317d4: C[9] || CT.C9}), $creationLocationd_0dea112b090073317d4: C[13] || CT.C13});
+    }
+  };
+  (vx_arc.VxArc.new = function(opts) {
+    let key = opts && 'key' in opts ? opts.key : null;
+    let height = opts && 'height' in opts ? opts.height : null;
+    let child = opts && 'child' in opts ? opts.child : null;
+    let edge = opts && 'edge' in opts ? opts.edge : C[2] || CT.C2;
+    let arcType = opts && 'arcType' in opts ? opts.arcType : C[6] || CT.C6;
+    let clipShadows = opts && 'clipShadows' in opts ? opts.clipShadows : C[8] || CT.C8;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    this[height$0] = height;
+    this[child$] = child;
+    this[edge$0] = edge;
+    this[arcType$0] = arcType;
+    this[clipShadows$] = clipShadows;
+    vx_arc.VxArc.__proto__.new.call(this, {key: key, $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = vx_arc.VxArc.prototype;
+  dart.addTypeTests(vx_arc.VxArc);
+  dart.addTypeCaches(vx_arc.VxArc);
+  dart.setMethodSignature(vx_arc.VxArc, () => ({
+    __proto__: dart.getMethods(vx_arc.VxArc.__proto__),
+    build: dart.fnType(framework.Widget, [framework.BuildContext])
+  }));
+  dart.setLibraryUri(vx_arc.VxArc, I[0]);
+  dart.setFieldSignature(vx_arc.VxArc, () => ({
+    __proto__: dart.getFields(vx_arc.VxArc.__proto__),
+    child: dart.finalFieldType(framework.Widget),
+    height: dart.finalFieldType(core.double),
+    edge: dart.finalFieldType(vx_arc.VxEdge),
+    arcType: dart.finalFieldType(vx_arc.VxArcType),
+    clipShadows: dart.finalFieldType(core.List$(vx_arc.VxClipShadow))
+  }));
+  var clipper$ = dart.privateName(vx_arc, "VxClipShadowPainter.clipper");
+  var clipShadows$0 = dart.privateName(vx_arc, "VxClipShadowPainter.clipShadows");
+  vx_arc.VxClipShadowPainter = class VxClipShadowPainter extends custom_paint.CustomPainter {
+    get clipper() {
+      return this[clipper$];
+    }
+    set clipper(value) {
+      super.clipper = value;
+    }
+    get clipShadows() {
+      return this[clipShadows$0];
+    }
+    set clipShadows(value) {
+      super.clipShadows = value;
+    }
+    paint(canvas, size) {
+      this.clipShadows[$forEach](dart.fn(shadow => {
+        canvas.drawShadow(this.clipper.getClip(size), shadow.color, shadow.elevation, true);
+      }, T.VxClipShadowTovoid()));
+    }
+    shouldRepaint(oldDelegate) {
+      custom_paint.CustomPainter.as(oldDelegate);
+      return true;
+    }
+  };
+  (vx_arc.VxClipShadowPainter.new = function(clipper, clipShadows) {
+    this[clipper$] = clipper;
+    this[clipShadows$0] = clipShadows;
+    vx_arc.VxClipShadowPainter.__proto__.new.call(this);
+    ;
+  }).prototype = vx_arc.VxClipShadowPainter.prototype;
+  dart.addTypeTests(vx_arc.VxClipShadowPainter);
+  dart.addTypeCaches(vx_arc.VxClipShadowPainter);
+  dart.setMethodSignature(vx_arc.VxClipShadowPainter, () => ({
+    __proto__: dart.getMethods(vx_arc.VxClipShadowPainter.__proto__),
+    paint: dart.fnType(dart.void, [ui.Canvas, ui.Size]),
+    shouldRepaint: dart.fnType(core.bool, [dart.nullable(core.Object)])
+  }));
+  dart.setLibraryUri(vx_arc.VxClipShadowPainter, I[0]);
+  dart.setFieldSignature(vx_arc.VxClipShadowPainter, () => ({
+    __proto__: dart.getFields(vx_arc.VxClipShadowPainter.__proto__),
+    clipper: dart.finalFieldType(proxy_box.CustomClipper$(ui.Path)),
+    clipShadows: dart.finalFieldType(core.List$(vx_arc.VxClipShadow))
+  }));
+  var color$ = dart.privateName(vx_arc, "VxClipShadow.color");
+  var elevation$ = dart.privateName(vx_arc, "VxClipShadow.elevation");
+  vx_arc.VxClipShadow = class VxClipShadow extends core.Object {
+    get color() {
+      return this[color$];
+    }
+    set color(value) {
+      super.color = value;
+    }
+    get elevation() {
+      return this[elevation$];
+    }
+    set elevation(value) {
+      super.elevation = value;
+    }
+  };
+  (vx_arc.VxClipShadow.new = function(opts) {
+    let color = opts && 'color' in opts ? opts.color : null;
+    let elevation = opts && 'elevation' in opts ? opts.elevation : 5;
+    this[color$] = color;
+    this[elevation$] = elevation;
+    ;
+  }).prototype = vx_arc.VxClipShadow.prototype;
+  dart.addTypeTests(vx_arc.VxClipShadow);
+  dart.addTypeCaches(vx_arc.VxClipShadow);
+  dart.setLibraryUri(vx_arc.VxClipShadow, I[0]);
+  dart.setFieldSignature(vx_arc.VxClipShadow, () => ({
+    __proto__: dart.getFields(vx_arc.VxClipShadow.__proto__),
+    color: dart.finalFieldType(ui.Color),
+    elevation: dart.finalFieldType(core.double)
+  }));
+  dart.trackLibraries("packages/velocity_x/src/flutter/clippers/vx_arc.dart", {
+    "package:velocity_x/src/flutter/clippers/vx_arc.dart": vx_arc
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["vx_arc.dart"],"names":[],"mappings":"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","file":"../../../../../../../../../packages/velocity_x/src/flutter/clippers/vx_arc.dart.lib.js"}');
+  // Exports:
+  return {
+    src__flutter__clippers__vx_arc: vx_arc
+  };
+}));
+
+//# sourceMappingURL=vx_arc.dart.lib.js.map

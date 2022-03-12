@@ -1,0 +1,1079 @@
+define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/animation/animation_controller.dart', 'packages/flutter/src/painting/edge_insets.dart', 'packages/flutter/src/painting/alignment.dart', 'packages/flutter/src/material/card.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/flutter/src/painting/strut_style.dart', 'packages/flutter/src/rendering/flex.dart', 'packages/flutter/src/material/progress_indicator.dart', 'packages/flutter/src/animation/listener_helpers.dart'], (function load__packages__velocity_x__src__flutter__toast_dart(dart_sdk, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__animation__animation_controller$46dart, packages__flutter__src__painting__edge_insets$46dart, packages__flutter__src__painting__alignment$46dart, packages__flutter__src__material__card$46dart, packages__flutter__src__material__icon_button$46dart, packages__flutter__src__painting__strut_style$46dart, packages__flutter__src__rendering__flex$46dart, packages__flutter__src__material__progress_indicator$46dart, packages__flutter__src__animation__listener_helpers$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const ui = dart_sdk.ui;
+  const _interceptors = dart_sdk._interceptors;
+  const async = dart_sdk.async;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const transitions = packages__flutter__src__widgets__widget_span$46dart.src__widgets__transitions;
+  const container = packages__flutter__src__widgets__widget_span$46dart.src__widgets__container;
+  const media_query = packages__flutter__src__widgets__widget_span$46dart.src__widgets__media_query;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const text = packages__flutter__src__widgets__widget_span$46dart.src__widgets__text;
+  const ticker_provider = packages__flutter__src__widgets__widget_span$46dart.src__widgets__ticker_provider;
+  const overlay = packages__flutter__src__widgets__widget_span$46dart.src__widgets__overlay;
+  const animation_controller = packages__flutter__src__animation__animation_controller$46dart.src__animation__animation_controller;
+  const edge_insets = packages__flutter__src__painting__edge_insets$46dart.src__painting__edge_insets;
+  const alignment = packages__flutter__src__painting__alignment$46dart.src__painting__alignment;
+  const card = packages__flutter__src__material__card$46dart.src__material__card;
+  const theme = packages__flutter__src__material__icon_button$46dart.src__material__theme;
+  const text_style = packages__flutter__src__painting__strut_style$46dart.src__painting__text_style;
+  const flex = packages__flutter__src__rendering__flex$46dart.src__rendering__flex;
+  const progress_indicator = packages__flutter__src__material__progress_indicator$46dart.src__material__progress_indicator;
+  const animations = packages__flutter__src__animation__listener_helpers$46dart.src__animation__animations;
+  var toast = Object.create(dart.library);
+  dart._checkModuleNullSafetyMode(true);
+  var T = {
+    doubleN: () => (T.doubleN = dart.constFn(dart.nullable(core.double)))(),
+    ColorN: () => (T.ColorN = dart.constFn(dart.nullable(ui.Color)))(),
+    AlwaysStoppedAnimationOfColorN: () => (T.AlwaysStoppedAnimationOfColorN = dart.constFn(animations.AlwaysStoppedAnimation$(T.ColorN())))(),
+    JSArrayOfWidget: () => (T.JSArrayOfWidget = dart.constFn(_interceptors.JSArray$(framework.Widget)))(),
+    GlobalKeyOf_VxToastViewState: () => (T.GlobalKeyOf_VxToastViewState = dart.constFn(framework.GlobalKey$(toast._VxToastViewState)))(),
+    BuildContextTo_VxToastView: () => (T.BuildContextTo_VxToastView = dart.constFn(dart.fnType(toast._VxToastView, [framework.BuildContext])))(),
+    FutureOfNull: () => (T.FutureOfNull = dart.constFn(async.Future$(core.Null)))(),
+    VoidToNull: () => (T.VoidToNull = dart.constFn(dart.fnType(core.Null, [])))(),
+    __Tovoid: () => (T.__Tovoid = dart.constFn(dart.fnType(dart.void, [], {bgColor: T.ColorN(), msg: core.String, pdHorizontal: core.double, pdVertical: core.double, position: toast.VxToastPosition, showTime: core.int, textColor: T.ColorN(), textSize: core.double}, {})))(),
+    __ToFunction: () => (T.__ToFunction = dart.constFn(dart.fnType(core.Function, [], {bgColor: T.ColorN(), msg: core.String, pdHorizontal: core.double, pdVertical: core.double, textColor: T.ColorN(), textSize: core.double}, {})))()
+  };
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: toast.VxToastPosition.prototype,
+        [_name$]: "VxToastPosition.top",
+        index: 0
+      });
+    },
+    get C1() {
+      return C[1] = dart.const({
+        __proto__: toast.VxToastPosition.prototype,
+        [_name$]: "VxToastPosition.center",
+        index: 1
+      });
+    },
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: toast.VxToastPosition.prototype,
+        [_name$]: "VxToastPosition.bottom",
+        index: 2
+      });
+    },
+    get C3() {
+      return C[3] = dart.constList([C[0] || CT.C0, C[1] || CT.C1, C[2] || CT.C2], toast.VxToastPosition);
+    },
+    get C4() {
+      return C[4] = dart.const({
+        __proto__: toast.VxToastType.prototype,
+        [_name$]: "VxToastType.text",
+        index: 0
+      });
+    },
+    get C5() {
+      return C[5] = dart.const({
+        __proto__: toast.VxToastType.prototype,
+        [_name$]: "VxToastType.loading",
+        index: 1
+      });
+    },
+    get C6() {
+      return C[6] = dart.constList([C[4] || CT.C4, C[5] || CT.C5], toast.VxToastType);
+    },
+    get C7() {
+      return C[7] = dart.const({
+        __proto__: edge_insets.EdgeInsets.prototype,
+        [EdgeInsets_bottom]: 0,
+        [EdgeInsets_right]: 40,
+        [EdgeInsets_top]: 0,
+        [EdgeInsets_left]: 40
+      });
+    },
+    get C10() {
+      return C[10] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 9,
+        [_Location_line]: 193,
+        [_Location_file]: null
+      });
+    },
+    get C11() {
+      return C[11] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 9,
+        [_Location_line]: 194,
+        [_Location_file]: null
+      });
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "alignment",
+        [_Location_column]: 9,
+        [_Location_line]: 195,
+        [_Location_file]: null
+      });
+    },
+    get C13() {
+      return C[13] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 9,
+        [_Location_line]: 196,
+        [_Location_file]: null
+      });
+    },
+    get C9() {
+      return C[9] = dart.constList([C[10] || CT.C10, C[11] || CT.C11, C[12] || CT.C12, C[13] || CT.C13], widget_inspector._Location);
+    },
+    get C8() {
+      return C[8] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[9] || CT.C9,
+        [_Location_name]: null,
+        [_Location_column]: 14,
+        [_Location_line]: 192,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C16() {
+      return C[16] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "opacity",
+        [_Location_column]: 7,
+        [_Location_line]: 191,
+        [_Location_file]: null
+      });
+    },
+    get C17() {
+      return C[17] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 7,
+        [_Location_line]: 192,
+        [_Location_file]: null
+      });
+    },
+    get C15() {
+      return C[15] = dart.constList([C[16] || CT.C16, C[17] || CT.C17], widget_inspector._Location);
+    },
+    get C14() {
+      return C[14] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[15] || CT.C15,
+        [_Location_name]: null,
+        [_Location_column]: 30,
+        [_Location_line]: 190,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C20() {
+      return C[20] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "top",
+        [_Location_column]: 7,
+        [_Location_line]: 204,
+        [_Location_file]: null
+      });
+    },
+    get C21() {
+      return C[21] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 7,
+        [_Location_line]: 205,
+        [_Location_file]: null
+      });
+    },
+    get C19() {
+      return C[19] = dart.constList([C[20] || CT.C20, C[21] || CT.C21], widget_inspector._Location);
+    },
+    get C18() {
+      return C[18] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[19] || CT.C19,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 203,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C24() {
+      return C[24] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 25,
+        [_Location_line]: 221,
+        [_Location_file]: null
+      });
+    },
+    get C25() {
+      return C[25] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 15,
+        [_Location_line]: 222,
+        [_Location_file]: null
+      });
+    },
+    get C23() {
+      return C[23] = dart.constList([C[24] || CT.C24, C[25] || CT.C25], widget_inspector._Location);
+    },
+    get C22() {
+      return C[22] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[23] || CT.C23,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 220,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C28() {
+      return C[28] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 13,
+        [_Location_line]: 216,
+        [_Location_file]: null
+      });
+    },
+    get C29() {
+      return C[29] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 13,
+        [_Location_line]: 220,
+        [_Location_file]: null
+      });
+    },
+    get C27() {
+      return C[27] = dart.constList([C[28] || CT.C28, C[29] || CT.C29], widget_inspector._Location);
+    },
+    get C26() {
+      return C[26] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[27] || CT.C27,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 215,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C32() {
+      return C[32] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 11,
+        [_Location_line]: 214,
+        [_Location_file]: null
+      });
+    },
+    get C33() {
+      return C[33] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 11,
+        [_Location_line]: 215,
+        [_Location_file]: null
+      });
+    },
+    get C31() {
+      return C[31] = dart.constList([C[32] || CT.C32, C[33] || CT.C33], widget_inspector._Location);
+    },
+    get C30() {
+      return C[30] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[31] || CT.C31,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 213,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C36() {
+      return C[36] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 9,
+        [_Location_line]: 213,
+        [_Location_file]: null
+      });
+    },
+    get C35() {
+      return C[35] = dart.constList([C[36] || CT.C36], widget_inspector._Location);
+    },
+    get C34() {
+      return C[34] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[35] || CT.C35,
+        [_Location_name]: null,
+        [_Location_column]: 14,
+        [_Location_line]: 212,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C39() {
+      return C[39] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "strokeWidth",
+        [_Location_column]: 19,
+        [_Location_line]: 245,
+        [_Location_file]: null
+      });
+    },
+    get C40() {
+      return C[40] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "valueColor",
+        [_Location_column]: 19,
+        [_Location_line]: 246,
+        [_Location_file]: null
+      });
+    },
+    get C38() {
+      return C[38] = dart.constList([C[39] || CT.C39, C[40] || CT.C40], widget_inspector._Location);
+    },
+    get C37() {
+      return C[37] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[38] || CT.C38,
+        [_Location_name]: null,
+        [_Location_column]: 17,
+        [_Location_line]: 244,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C44() {
+      return C[44] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 32,
+        [_Location_line]: 250,
+        [_Location_file]: null
+      });
+    },
+    get C43() {
+      return C[43] = dart.constList([C[44] || CT.C44], widget_inspector._Location);
+    },
+    get C42() {
+      return C[42] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[43] || CT.C43,
+        [_Location_name]: null,
+        [_Location_column]: 23,
+        [_Location_line]: 250,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C41() {
+      return C[41] = dart.const({
+        __proto__: basic.SizedBox.prototype,
+        [Widget__location]: C[42] || CT.C42,
+        [Widget_key]: null,
+        [SingleChildRenderObjectWidget_child]: null,
+        [SizedBox_height]: 8,
+        [SizedBox_width]: null
+      });
+    },
+    get C47() {
+      return C[47] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "data",
+        [_Location_column]: 29,
+        [_Location_line]: 252,
+        [_Location_file]: null
+      });
+    },
+    get C48() {
+      return C[48] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "style",
+        [_Location_column]: 19,
+        [_Location_line]: 253,
+        [_Location_file]: null
+      });
+    },
+    get C46() {
+      return C[46] = dart.constList([C[47] || CT.C47, C[48] || CT.C48], widget_inspector._Location);
+    },
+    get C45() {
+      return C[45] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[46] || CT.C46,
+        [_Location_name]: null,
+        [_Location_column]: 17,
+        [_Location_line]: 251,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C51() {
+      return C[51] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "mainAxisSize",
+        [_Location_column]: 15,
+        [_Location_line]: 241,
+        [_Location_file]: null
+      });
+    },
+    get C52() {
+      return C[52] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "crossAxisAlignment",
+        [_Location_column]: 15,
+        [_Location_line]: 242,
+        [_Location_file]: null
+      });
+    },
+    get C53() {
+      return C[53] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 15,
+        [_Location_line]: 243,
+        [_Location_file]: null
+      });
+    },
+    get C50() {
+      return C[50] = dart.constList([C[51] || CT.C51, C[52] || CT.C52, C[53] || CT.C53], widget_inspector._Location);
+    },
+    get C49() {
+      return C[49] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[50] || CT.C50,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 240,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C56() {
+      return C[56] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "padding",
+        [_Location_column]: 13,
+        [_Location_line]: 236,
+        [_Location_file]: null
+      });
+    },
+    get C57() {
+      return C[57] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 13,
+        [_Location_line]: 240,
+        [_Location_file]: null
+      });
+    },
+    get C55() {
+      return C[55] = dart.constList([C[56] || CT.C56, C[57] || CT.C57], widget_inspector._Location);
+    },
+    get C54() {
+      return C[54] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[55] || CT.C55,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 235,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C60() {
+      return C[60] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 11,
+        [_Location_line]: 234,
+        [_Location_file]: null
+      });
+    },
+    get C61() {
+      return C[61] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 11,
+        [_Location_line]: 235,
+        [_Location_file]: null
+      });
+    },
+    get C59() {
+      return C[59] = dart.constList([C[60] || CT.C60, C[61] || CT.C61], widget_inspector._Location);
+    },
+    get C58() {
+      return C[58] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[59] || CT.C59,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 233,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C64() {
+      return C[64] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 9,
+        [_Location_line]: 233,
+        [_Location_file]: null
+      });
+    },
+    get C63() {
+      return C[63] = dart.constList([C[64] || CT.C64], widget_inspector._Location);
+    },
+    get C62() {
+      return C[62] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[63] || CT.C63,
+        [_Location_name]: null,
+        [_Location_column]: 14,
+        [_Location_line]: 232,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C67() {
+      return C[67] = dart.constList([], widget_inspector._Location);
+    },
+    get C66() {
+      return C[66] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[67] || CT.C67,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 265,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    },
+    get C65() {
+      return C[65] = dart.const({
+        __proto__: basic.Offstage.prototype,
+        [Widget__location]: C[66] || CT.C66,
+        [Widget_key]: null,
+        [SingleChildRenderObjectWidget_child]: null,
+        [Offstage_offstage]: true
+      });
+    },
+    get C68() {
+      return C[68] = dart.const({
+        __proto__: core.Duration.prototype,
+        [Duration__duration]: 150000
+      });
+    },
+    get C69() {
+      return C[69] = dart.const({
+        __proto__: core.Duration.prototype,
+        [Duration__duration]: 75000
+      });
+    },
+    get C72() {
+      return C[72] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "msg",
+        [_Location_column]: 13,
+        [_Location_line]: 100,
+        [_Location_file]: null
+      });
+    },
+    get C73() {
+      return C[73] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "key",
+        [_Location_column]: 13,
+        [_Location_line]: 101,
+        [_Location_file]: null
+      });
+    },
+    get C74() {
+      return C[74] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "bgColor",
+        [_Location_column]: 13,
+        [_Location_line]: 102,
+        [_Location_file]: null
+      });
+    },
+    get C75() {
+      return C[75] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "textColor",
+        [_Location_column]: 13,
+        [_Location_line]: 103,
+        [_Location_file]: null
+      });
+    },
+    get C76() {
+      return C[76] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "textSize",
+        [_Location_column]: 13,
+        [_Location_line]: 104,
+        [_Location_file]: null
+      });
+    },
+    get C77() {
+      return C[77] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "toastPosition",
+        [_Location_column]: 13,
+        [_Location_line]: 105,
+        [_Location_file]: null
+      });
+    },
+    get C78() {
+      return C[78] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "pdHorizontal",
+        [_Location_column]: 13,
+        [_Location_line]: 106,
+        [_Location_file]: null
+      });
+    },
+    get C79() {
+      return C[79] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "pdVertical",
+        [_Location_column]: 13,
+        [_Location_line]: 107,
+        [_Location_file]: null
+      });
+    },
+    get C80() {
+      return C[80] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "type",
+        [_Location_column]: 13,
+        [_Location_line]: 108,
+        [_Location_file]: null
+      });
+    },
+    get C71() {
+      return C[71] = dart.constList([C[72] || CT.C72, C[73] || CT.C73, C[74] || CT.C74, C[75] || CT.C75, C[76] || CT.C76, C[77] || CT.C77, C[78] || CT.C78, C[79] || CT.C79, C[80] || CT.C80], widget_inspector._Location);
+    },
+    get C70() {
+      return C[70] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[71] || CT.C71,
+        [_Location_name]: null,
+        [_Location_column]: 42,
+        [_Location_line]: 99,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/velocity_x-3.3.0/lib/src/flutter/toast.dart"
+      });
+    }
+  }, false);
+  var C = Array(81).fill(void 0);
+  var I = ["package:velocity_x/src/flutter/toast.dart"];
+  var _name$ = dart.privateName(toast, "_name");
+  toast.VxToastPosition = class VxToastPosition extends core.Object {
+    toString() {
+      return this[_name$];
+    }
+  };
+  (toast.VxToastPosition.new = function(index, _name) {
+    this.index = index;
+    this[_name$] = _name;
+    ;
+  }).prototype = toast.VxToastPosition.prototype;
+  dart.addTypeTests(toast.VxToastPosition);
+  dart.addTypeCaches(toast.VxToastPosition);
+  dart.setLibraryUri(toast.VxToastPosition, I[0]);
+  dart.setFieldSignature(toast.VxToastPosition, () => ({
+    __proto__: dart.getFields(toast.VxToastPosition.__proto__),
+    index: dart.finalFieldType(core.int),
+    [_name$]: dart.finalFieldType(core.String)
+  }));
+  dart.defineExtensionMethods(toast.VxToastPosition, ['toString']);
+  toast.VxToastPosition.top = C[0] || CT.C0;
+  toast.VxToastPosition.center = C[1] || CT.C1;
+  toast.VxToastPosition.bottom = C[2] || CT.C2;
+  toast.VxToastPosition.values = C[3] || CT.C3;
+  toast.VxToastType = class VxToastType extends core.Object {
+    toString() {
+      return this[_name$];
+    }
+  };
+  (toast.VxToastType.new = function(index, _name) {
+    this.index = index;
+    this[_name$] = _name;
+    ;
+  }).prototype = toast.VxToastType.prototype;
+  dart.addTypeTests(toast.VxToastType);
+  dart.addTypeCaches(toast.VxToastType);
+  dart.setLibraryUri(toast.VxToastType, I[0]);
+  dart.setFieldSignature(toast.VxToastType, () => ({
+    __proto__: dart.getFields(toast.VxToastType.__proto__),
+    index: dart.finalFieldType(core.int),
+    [_name$]: dart.finalFieldType(core.String)
+  }));
+  dart.defineExtensionMethods(toast.VxToastType, ['toString']);
+  toast.VxToastType.text = C[4] || CT.C4;
+  toast.VxToastType.loading = C[5] || CT.C5;
+  toast.VxToastType.values = C[6] || CT.C6;
+  toast.VxToast = class VxToast extends core.Object {
+    static show(context, opts) {
+      let msg = opts && 'msg' in opts ? opts.msg : null;
+      let showTime = opts && 'showTime' in opts ? opts.showTime : 2000;
+      let bgColor = opts && 'bgColor' in opts ? opts.bgColor : null;
+      let textColor = opts && 'textColor' in opts ? opts.textColor : null;
+      let textSize = opts && 'textSize' in opts ? opts.textSize : 14;
+      let position = opts && 'position' in opts ? opts.position : C[2] || CT.C2;
+      let pdHorizontal = opts && 'pdHorizontal' in opts ? opts.pdHorizontal : 20;
+      let pdVertical = opts && 'pdVertical' in opts ? opts.pdVertical : 10;
+      toast._showToast(context, {msg: msg, showTime: showTime, bgColor: bgColor, textColor: textColor, textSize: textSize, position: position, pdHorizontal: pdHorizontal, pdVertical: pdVertical, type: toast.VxToastType.text});
+    }
+    static showLoading(context, opts) {
+      let msg = opts && 'msg' in opts ? opts.msg : null;
+      let bgColor = opts && 'bgColor' in opts ? opts.bgColor : null;
+      let textColor = opts && 'textColor' in opts ? opts.textColor : null;
+      let pdHorizontal = opts && 'pdHorizontal' in opts ? opts.pdHorizontal : 20;
+      let pdVertical = opts && 'pdVertical' in opts ? opts.pdVertical : 10;
+      let textSize = opts && 'textSize' in opts ? opts.textSize : 14;
+      return toast._showToast(context, {msg: msg, bgColor: bgColor, textColor: textColor, textSize: textSize, pdHorizontal: pdHorizontal, pdVertical: pdVertical, type: toast.VxToastType.loading});
+    }
+  };
+  (toast.VxToast.new = function() {
+    ;
+  }).prototype = toast.VxToast.prototype;
+  dart.addTypeTests(toast.VxToast);
+  dart.addTypeCaches(toast.VxToast);
+  dart.setLibraryUri(toast.VxToast, I[0]);
+  var msg$ = dart.privateName(toast, "_VxToastView.msg");
+  var bgColor$ = dart.privateName(toast, "_VxToastView.bgColor");
+  var textColor$ = dart.privateName(toast, "_VxToastView.textColor");
+  var textSize$ = dart.privateName(toast, "_VxToastView.textSize");
+  var toastPosition$ = dart.privateName(toast, "_VxToastView.toastPosition");
+  var pdHorizontal$ = dart.privateName(toast, "_VxToastView.pdHorizontal");
+  var pdVertical$ = dart.privateName(toast, "_VxToastView.pdVertical");
+  var type$ = dart.privateName(toast, "_VxToastView.type");
+  var close$ = dart.privateName(toast, "_VxToastView.close");
+  toast._VxToastView = class _VxToastView extends framework.StatefulWidget {
+    get msg() {
+      return this[msg$];
+    }
+    set msg(value) {
+      super.msg = value;
+    }
+    get bgColor() {
+      return this[bgColor$];
+    }
+    set bgColor(value) {
+      super.bgColor = value;
+    }
+    get textColor() {
+      return this[textColor$];
+    }
+    set textColor(value) {
+      super.textColor = value;
+    }
+    get textSize() {
+      return this[textSize$];
+    }
+    set textSize(value) {
+      super.textSize = value;
+    }
+    get toastPosition() {
+      return this[toastPosition$];
+    }
+    set toastPosition(value) {
+      super.toastPosition = value;
+    }
+    get pdHorizontal() {
+      return this[pdHorizontal$];
+    }
+    set pdHorizontal(value) {
+      super.pdHorizontal = value;
+    }
+    get pdVertical() {
+      return this[pdVertical$];
+    }
+    set pdVertical(value) {
+      super.pdVertical = value;
+    }
+    get type() {
+      return this[type$];
+    }
+    set type(value) {
+      super.type = value;
+    }
+    get close() {
+      return this[close$];
+    }
+    set close(value) {
+      super.close = value;
+    }
+    createState() {
+      return new toast._VxToastViewState.new();
+    }
+  };
+  (toast._VxToastView.new = function(msg, opts) {
+    let key = opts && 'key' in opts ? opts.key : null;
+    let bgColor = opts && 'bgColor' in opts ? opts.bgColor : null;
+    let textColor = opts && 'textColor' in opts ? opts.textColor : null;
+    let textSize = opts && 'textSize' in opts ? opts.textSize : null;
+    let toastPosition = opts && 'toastPosition' in opts ? opts.toastPosition : null;
+    let pdHorizontal = opts && 'pdHorizontal' in opts ? opts.pdHorizontal : null;
+    let pdVertical = opts && 'pdVertical' in opts ? opts.pdVertical : null;
+    let type = opts && 'type' in opts ? opts.type : null;
+    let close = opts && 'close' in opts ? opts.close : null;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    this[msg$] = msg;
+    this[bgColor$] = bgColor;
+    this[textColor$] = textColor;
+    this[textSize$] = textSize;
+    this[toastPosition$] = toastPosition;
+    this[pdHorizontal$] = pdHorizontal;
+    this[pdVertical$] = pdVertical;
+    this[type$] = type;
+    this[close$] = close;
+    toast._VxToastView.__proto__.new.call(this, {key: key, $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = toast._VxToastView.prototype;
+  dart.addTypeTests(toast._VxToastView);
+  dart.addTypeCaches(toast._VxToastView);
+  dart.setMethodSignature(toast._VxToastView, () => ({
+    __proto__: dart.getMethods(toast._VxToastView.__proto__),
+    createState: dart.fnType(toast._VxToastViewState, [])
+  }));
+  dart.setLibraryUri(toast._VxToastView, I[0]);
+  dart.setFieldSignature(toast._VxToastView, () => ({
+    __proto__: dart.getFields(toast._VxToastView.__proto__),
+    msg: dart.finalFieldType(dart.nullable(core.String)),
+    bgColor: dart.finalFieldType(dart.nullable(ui.Color)),
+    textColor: dart.finalFieldType(dart.nullable(ui.Color)),
+    textSize: dart.finalFieldType(dart.nullable(core.double)),
+    toastPosition: dart.finalFieldType(dart.nullable(toast.VxToastPosition)),
+    pdHorizontal: dart.finalFieldType(dart.nullable(core.double)),
+    pdVertical: dart.finalFieldType(dart.nullable(core.double)),
+    type: dart.finalFieldType(dart.nullable(toast.VxToastType)),
+    close: dart.finalFieldType(dart.nullable(dart.fnType(dart.void, [])))
+  }));
+  var _controller = dart.privateName(toast, "_controller");
+  var _show = dart.privateName(toast, "_show");
+  var EdgeInsets_bottom = dart.privateName(edge_insets, "EdgeInsets.bottom");
+  var EdgeInsets_right = dart.privateName(edge_insets, "EdgeInsets.right");
+  var EdgeInsets_top = dart.privateName(edge_insets, "EdgeInsets.top");
+  var EdgeInsets_left = dart.privateName(edge_insets, "EdgeInsets.left");
+  var _buildToastWidget = dart.privateName(toast, "_buildToastWidget");
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  var Widget__location = dart.privateName(framework, "Widget._location");
+  var Widget_key = dart.privateName(framework, "Widget.key");
+  var SingleChildRenderObjectWidget_child = dart.privateName(framework, "SingleChildRenderObjectWidget.child");
+  var SizedBox_height = dart.privateName(basic, "SizedBox.height");
+  var SizedBox_width = dart.privateName(basic, "SizedBox.width");
+  var Offstage_offstage = dart.privateName(basic, "Offstage.offstage");
+  var _hide = dart.privateName(toast, "_hide");
+  var Duration__duration = dart.privateName(core, "Duration._duration");
+  const State_SingleTickerProviderStateMixin$36 = class State_SingleTickerProviderStateMixin extends framework.State$(toast._VxToastView) {};
+  (State_SingleTickerProviderStateMixin$36.new = function() {
+    ticker_provider.SingleTickerProviderStateMixin$(toast._VxToastView)[dart.mixinNew].call(this);
+    State_SingleTickerProviderStateMixin$36.__proto__.new.call(this);
+  }).prototype = State_SingleTickerProviderStateMixin$36.prototype;
+  dart.applyMixin(State_SingleTickerProviderStateMixin$36, ticker_provider.SingleTickerProviderStateMixin$(toast._VxToastView));
+  toast._VxToastViewState = class _VxToastViewState extends State_SingleTickerProviderStateMixin$36 {
+    initState() {
+      super.initState();
+      this[_controller] = new animation_controller.AnimationController.new({duration: toast._VxToastViewState._fadeInDuration, reverseDuration: toast._VxToastViewState._fadeOutDuration, vsync: this});
+      this[_show]();
+    }
+    build(context) {
+      let toastView = new transitions.FadeTransition.new({opacity: dart.nullCheck(this[_controller]), child: new container.Container.new({padding: C[7] || CT.C7, width: media_query.MediaQuery.of(context).size.width, alignment: alignment.Alignment.center, child: this[_buildToastWidget](), $creationLocationd_0dea112b090073317d4: C[8] || CT.C8}), $creationLocationd_0dea112b090073317d4: C[14] || CT.C14});
+      if (this.widget.toastPosition === toast.VxToastPosition.center || this.widget.type === toast.VxToastType.loading) {
+        return toastView;
+      }
+      return new basic.Positioned.new({top: T.doubleN().as(this.buildToastPosition(context)), child: toastView, $creationLocationd_0dea112b090073317d4: C[18] || CT.C18});
+    }
+    [_buildToastWidget]() {
+      let t0, t0$, t0$0, t0$1;
+      if (this.widget.type === toast.VxToastType.text) {
+        return new basic.Center.new({child: new card.Card.new({color: (t0 = this.widget.bgColor, t0 == null ? dart.nullCheck(theme.Theme.of(this.context).textTheme.headline6).color : t0), child: new basic.Padding.new({padding: new edge_insets.EdgeInsets.symmetric({horizontal: dart.nullCheck(this.widget.pdHorizontal), vertical: dart.nullCheck(this.widget.pdVertical)}), child: new text.Text.new(dart.nullCheck(this.widget.msg), {style: new text_style.TextStyle.new({fontSize: this.widget.textSize, color: (t0$ = this.widget.textColor, t0$ == null ? dart.nullCheck(theme.Theme.of(this.context).accentTextTheme.bodyText1).color : t0$)}), $creationLocationd_0dea112b090073317d4: C[22] || CT.C22}), $creationLocationd_0dea112b090073317d4: C[26] || CT.C26}), $creationLocationd_0dea112b090073317d4: C[30] || CT.C30}), $creationLocationd_0dea112b090073317d4: C[34] || CT.C34});
+      } else if (this.widget.type === toast.VxToastType.loading) {
+        return new basic.Center.new({child: new card.Card.new({color: (t0$0 = this.widget.bgColor, t0$0 == null ? dart.nullCheck(theme.Theme.of(this.context).textTheme.headline6).color : t0$0), child: new basic.Padding.new({padding: new edge_insets.EdgeInsets.symmetric({horizontal: dart.nullCheck(this.widget.pdHorizontal), vertical: dart.nullCheck(this.widget.pdVertical)}), child: new basic.Column.new({mainAxisSize: flex.MainAxisSize.min, crossAxisAlignment: flex.CrossAxisAlignment.center, children: T.JSArrayOfWidget().of([new progress_indicator.CircularProgressIndicator.new({strokeWidth: 3.0, valueColor: new (T.AlwaysStoppedAnimationOfColorN()).new(theme.Theme.of(this.context).backgroundColor), $creationLocationd_0dea112b090073317d4: C[37] || CT.C37}), C[41] || CT.C41, new text.Text.new(dart.nullCheck(this.widget.msg), {style: new text_style.TextStyle.new({fontSize: this.widget.textSize, color: (t0$1 = this.widget.textColor, t0$1 == null ? dart.nullCheck(theme.Theme.of(this.context).accentTextTheme.bodyText1).color : t0$1)}), $creationLocationd_0dea112b090073317d4: C[45] || CT.C45})]), $creationLocationd_0dea112b090073317d4: C[49] || CT.C49}), $creationLocationd_0dea112b090073317d4: C[54] || CT.C54}), $creationLocationd_0dea112b090073317d4: C[58] || CT.C58}), $creationLocationd_0dea112b090073317d4: C[62] || CT.C62});
+      }
+      return C[65] || CT.C65;
+    }
+    buildToastPosition(context) {
+      let backResult = null;
+      if (this.widget.toastPosition === toast.VxToastPosition.top) {
+        backResult = media_query.MediaQuery.of(framework.BuildContext.as(context)).size.height * 1 / 6;
+      } else if (this.widget.toastPosition === toast.VxToastPosition.center) {
+        backResult = media_query.MediaQuery.of(framework.BuildContext.as(context)).size.height * 1 / 2;
+      } else {
+        backResult = media_query.MediaQuery.of(framework.BuildContext.as(context)).size.height * 0.9;
+      }
+      return backResult;
+    }
+    [_show]() {
+      let t0;
+      t0 = this[_controller];
+      t0 == null ? null : t0.forward();
+    }
+    [_hide]() {
+      let t0;
+      t0 = this[_controller];
+      t0 == null ? null : t0.reverse();
+    }
+    dispose() {
+      this[_hide]();
+      dart.nullCheck(this[_controller]).dispose();
+      super.dispose();
+    }
+  };
+  (toast._VxToastViewState.new = function() {
+    this[_controller] = null;
+    toast._VxToastViewState.__proto__.new.call(this);
+    ;
+  }).prototype = toast._VxToastViewState.prototype;
+  dart.addTypeTests(toast._VxToastViewState);
+  dart.addTypeCaches(toast._VxToastViewState);
+  dart.setMethodSignature(toast._VxToastViewState, () => ({
+    __proto__: dart.getMethods(toast._VxToastViewState.__proto__),
+    build: dart.fnType(framework.Widget, [framework.BuildContext]),
+    [_buildToastWidget]: dart.fnType(framework.Widget, []),
+    buildToastPosition: dart.fnType(dart.dynamic, [dart.dynamic]),
+    [_show]: dart.fnType(dart.void, []),
+    [_hide]: dart.fnType(dart.void, [])
+  }));
+  dart.setLibraryUri(toast._VxToastViewState, I[0]);
+  dart.setFieldSignature(toast._VxToastViewState, () => ({
+    __proto__: dart.getFields(toast._VxToastViewState.__proto__),
+    [_controller]: dart.fieldType(dart.nullable(animation_controller.AnimationController))
+  }));
+  dart.defineLazy(toast._VxToastViewState, {
+    /*toast._VxToastViewState._fadeInDuration*/get _fadeInDuration() {
+      return C[68] || CT.C68;
+    },
+    /*toast._VxToastViewState._fadeOutDuration*/get _fadeOutDuration() {
+      return C[69] || CT.C69;
+    }
+  }, false);
+  toast._showToast = function _showToast(context, opts) {
+    let t0;
+    let msg = opts && 'msg' in opts ? opts.msg : null;
+    let showTime = opts && 'showTime' in opts ? opts.showTime : 1000;
+    let bgColor = opts && 'bgColor' in opts ? opts.bgColor : null;
+    let textColor = opts && 'textColor' in opts ? opts.textColor : null;
+    let textSize = opts && 'textSize' in opts ? opts.textSize : null;
+    let position = opts && 'position' in opts ? opts.position : C[1] || CT.C1;
+    let pdHorizontal = opts && 'pdHorizontal' in opts ? opts.pdHorizontal : null;
+    let pdVertical = opts && 'pdVertical' in opts ? opts.pdVertical : null;
+    let type = opts && 'type' in opts ? opts.type : C[4] || CT.C4;
+    let overlayState = overlay.Overlay.of(context);
+    let key = T.GlobalKeyOf_VxToastViewState().new();
+    let _overlayEntry = new overlay.OverlayEntry.new({builder: dart.fn(context => new toast._VxToastView.new(msg, {key: key, bgColor: bgColor, textColor: textColor, textSize: textSize, toastPosition: position, pdHorizontal: pdHorizontal, pdVertical: pdVertical, type: type, $creationLocationd_0dea112b090073317d4: C[70] || CT.C70}), T.BuildContextTo_VxToastView())});
+    t0 = overlayState;
+    t0 == null ? null : t0.insert(_overlayEntry);
+    if (type === toast.VxToastType.text) {
+      T.FutureOfNull().delayed(new core.Duration.new({milliseconds: showTime}), dart.fn(() => {
+        let t0;
+        t0 = key.currentState;
+        t0 == null ? null : t0[_hide]();
+        _overlayEntry.remove();
+      }, T.VoidToNull()));
+    }
+    return dart.fn(() => {
+      let t0;
+      t0 = key.currentState;
+      t0 == null ? null : t0[_hide]();
+      _overlayEntry.remove();
+    }, T.VoidToNull());
+  };
+  toast['ToastExtension|showToast'] = function ToastExtension$124showToast($this, opts) {
+    let msg = opts && 'msg' in opts ? opts.msg : null;
+    let showTime = opts && 'showTime' in opts ? opts.showTime : 2000;
+    let bgColor = opts && 'bgColor' in opts ? opts.bgColor : null;
+    let textColor = opts && 'textColor' in opts ? opts.textColor : null;
+    let textSize = opts && 'textSize' in opts ? opts.textSize : 14;
+    let position = opts && 'position' in opts ? opts.position : C[2] || CT.C2;
+    let pdHorizontal = opts && 'pdHorizontal' in opts ? opts.pdHorizontal : 20;
+    let pdVertical = opts && 'pdVertical' in opts ? opts.pdVertical : 10;
+    return toast.VxToast.show($this, {msg: msg, bgColor: bgColor, pdHorizontal: pdHorizontal, pdVertical: pdVertical, position: position, showTime: showTime, textColor: textColor, textSize: textSize});
+  };
+  toast['ToastExtension|get#showToast'] = function ToastExtension$124get$35showToast($this) {
+    return dart.fn(opts => {
+      let msg = opts && 'msg' in opts ? opts.msg : null;
+      let showTime = opts && 'showTime' in opts ? opts.showTime : 2000;
+      let bgColor = opts && 'bgColor' in opts ? opts.bgColor : null;
+      let textColor = opts && 'textColor' in opts ? opts.textColor : null;
+      let textSize = opts && 'textSize' in opts ? opts.textSize : 14;
+      let position = opts && 'position' in opts ? opts.position : C[2] || CT.C2;
+      let pdHorizontal = opts && 'pdHorizontal' in opts ? opts.pdHorizontal : 20;
+      let pdVertical = opts && 'pdVertical' in opts ? opts.pdVertical : 10;
+      return toast['ToastExtension|showToast']($this, {msg: msg, showTime: showTime, bgColor: bgColor, textColor: textColor, textSize: textSize, position: position, pdHorizontal: pdHorizontal, pdVertical: pdVertical});
+    }, T.__Tovoid());
+  };
+  toast['ToastExtension|showLoading'] = function ToastExtension$124showLoading($this, opts) {
+    let msg = opts && 'msg' in opts ? opts.msg : null;
+    let bgColor = opts && 'bgColor' in opts ? opts.bgColor : null;
+    let textColor = opts && 'textColor' in opts ? opts.textColor : null;
+    let textSize = opts && 'textSize' in opts ? opts.textSize : 14;
+    let pdHorizontal = opts && 'pdHorizontal' in opts ? opts.pdHorizontal : 20;
+    let pdVertical = opts && 'pdVertical' in opts ? opts.pdVertical : 10;
+    return toast.VxToast.showLoading($this, {msg: msg, bgColor: bgColor, pdHorizontal: pdHorizontal, pdVertical: pdVertical, textColor: textColor, textSize: textSize});
+  };
+  toast['ToastExtension|get#showLoading'] = function ToastExtension$124get$35showLoading($this) {
+    return dart.fn(opts => {
+      let msg = opts && 'msg' in opts ? opts.msg : null;
+      let bgColor = opts && 'bgColor' in opts ? opts.bgColor : null;
+      let textColor = opts && 'textColor' in opts ? opts.textColor : null;
+      let textSize = opts && 'textSize' in opts ? opts.textSize : 14;
+      let pdHorizontal = opts && 'pdHorizontal' in opts ? opts.pdHorizontal : 20;
+      let pdVertical = opts && 'pdVertical' in opts ? opts.pdVertical : 10;
+      return toast['ToastExtension|showLoading']($this, {msg: msg, bgColor: bgColor, textColor: textColor, textSize: textSize, pdHorizontal: pdHorizontal, pdVertical: pdVertical});
+    }, T.__ToFunction());
+  };
+  dart.trackLibraries("packages/velocity_x/src/flutter/toast.dart", {
+    "package:velocity_x/src/flutter/toast.dart": toast
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["toast.dart"],"names":[],"mappings":"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","file":"../../../../../../../../packages/velocity_x/src/flutter/toast.dart.lib.js"}');
+  // Exports:
+  return {
+    src__flutter__toast: toast
+  };
+}));
+
+//# sourceMappingURL=toast.dart.lib.js.map

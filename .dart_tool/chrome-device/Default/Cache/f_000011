@@ -1,0 +1,451 @@
+define(['dart_sdk', 'packages/flutter/src/foundation/debug.dart', 'packages/flutter/src/widgets/async.dart', 'packages/flutter/src/widgets/widget_span.dart'], (function load__packages__vxstate__src__vxstate_dart(dart_sdk, packages__flutter__src__foundation__debug$46dart, packages__flutter__src__widgets__async$46dart, packages__flutter__src__widgets__widget_span$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const _internal = dart_sdk._internal;
+  const collection = dart_sdk.collection;
+  const async = dart_sdk.async;
+  const _interceptors = dart_sdk._interceptors;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const diagnostics = packages__flutter__src__foundation__debug$46dart.src__foundation__diagnostics;
+  const async$ = packages__flutter__src__widgets__async$46dart.src__widgets__async;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const inherited_model = packages__flutter__src__widgets__widget_span$46dart.src__widgets__inherited_model;
+  var vxstate = Object.create(dart.library);
+  var $runtimeType = dartx.runtimeType;
+  var $toString = dartx.toString;
+  var $isNotEmpty = dartx.isNotEmpty;
+  var $hashCode = dartx.hashCode;
+  var $add = dartx.add;
+  dart._checkModuleNullSafetyMode(true);
+  var T$ = {
+    VxStoreN: () => (T$.VxStoreN = dart.constFn(dart.nullable(vxstate.VxStore)))(),
+    VxMutationOfVxStoreN: () => (T$.VxMutationOfVxStoreN = dart.constFn(vxstate.VxMutation$(T$.VxStoreN())))(),
+    VxMutationOfVxStoreNTobool: () => (T$.VxMutationOfVxStoreNTobool = dart.constFn(dart.fnType(core.bool, [T$.VxMutationOfVxStoreN()])))(),
+    DiagnosticsPropertyOfString: () => (T$.DiagnosticsPropertyOfString = dart.constFn(diagnostics.DiagnosticsProperty$(core.String)))(),
+    VxMutationOfVxStoreNTovoid: () => (T$.VxMutationOfVxStoreNTovoid = dart.constFn(dart.fnType(dart.void, [T$.VxMutationOfVxStoreN()])))(),
+    StreamBuilderOfVxMutationOfVxStoreN: () => (T$.StreamBuilderOfVxMutationOfVxStoreN = dart.constFn(async$.StreamBuilder$(T$.VxMutationOfVxStoreN())))(),
+    LinkedHashSetOfType: () => (T$.LinkedHashSetOfType = dart.constFn(collection.LinkedHashSet$(core.Type)))(),
+    SetOfType: () => (T$.SetOfType = dart.constFn(core.Set$(core.Type)))(),
+    SetNOfType: () => (T$.SetNOfType = dart.constFn(dart.nullable(T$.SetOfType())))(),
+    ObjectN: () => (T$.ObjectN = dart.constFn(dart.nullable(core.Object)))(),
+    AsyncSnapshotOfObjectN: () => (T$.AsyncSnapshotOfObjectN = dart.constFn(async$.AsyncSnapshot$(T$.ObjectN())))(),
+    BuildContextAndAsyncSnapshotOfObjectNTo_VxStateModel: () => (T$.BuildContextAndAsyncSnapshotOfObjectNTo_VxStateModel = dart.constFn(dart.fnType(vxstate._VxStateModel, [framework.BuildContext, T$.AsyncSnapshotOfObjectN()])))(),
+    StreamControllerOfVxMutationOfVxStoreN: () => (T$.StreamControllerOfVxMutationOfVxStoreN = dart.constFn(async.StreamController$(T$.VxMutationOfVxStoreN())))(),
+    VoidToVxMutationOfVxStoreN: () => (T$.VoidToVxMutationOfVxStoreN = dart.constFn(dart.fnType(T$.VxMutationOfVxStoreN(), [])))(),
+    JSArrayOfVoidToVxMutationOfVxStoreN: () => (T$.JSArrayOfVoidToVxMutationOfVxStoreN = dart.constFn(_interceptors.JSArray$(T$.VoidToVxMutationOfVxStoreN())))()
+  };
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: vxstate.VxStatus.prototype,
+        [_name$]: "VxStatus.none",
+        index: 0
+      });
+    },
+    get C1() {
+      return C[1] = dart.const({
+        __proto__: vxstate.VxStatus.prototype,
+        [_name$]: "VxStatus.loading",
+        index: 1
+      });
+    },
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: vxstate.VxStatus.prototype,
+        [_name$]: "VxStatus.success",
+        index: 2
+      });
+    },
+    get C3() {
+      return C[3] = dart.const({
+        __proto__: vxstate.VxStatus.prototype,
+        [_name$]: "VxStatus.error",
+        index: 3
+      });
+    },
+    get C4() {
+      return C[4] = dart.constList([C[0] || CT.C0, C[1] || CT.C1, C[2] || CT.C2, C[3] || CT.C3], vxstate.VxStatus);
+    },
+    get C5() {
+      return C[5] = dart.constList([], vxstate.VxInterceptor);
+    },
+    get C8() {
+      return C[8] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 30,
+        [_Location_line]: 113,
+        [_Location_file]: null
+      });
+    },
+    get C9() {
+      return C[9] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "recent",
+        [_Location_column]: 45,
+        [_Location_line]: 113,
+        [_Location_file]: null
+      });
+    },
+    get C7() {
+      return C[7] = dart.constList([C[8] || CT.C8, C[9] || CT.C9], widget_inspector._Location);
+    },
+    get C6() {
+      return C[6] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[7] || CT.C7,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 113,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/vxstate-2.1.0/lib/src/vxstate.dart"
+      });
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "stream",
+        [_Location_column]: 7,
+        [_Location_line]: 98,
+        [_Location_file]: null
+      });
+    },
+    get C13() {
+      return C[13] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "builder",
+        [_Location_column]: 7,
+        [_Location_line]: 99,
+        [_Location_file]: null
+      });
+    },
+    get C11() {
+      return C[11] = dart.constList([C[12] || CT.C12, C[13] || CT.C13], widget_inspector._Location);
+    },
+    get C10() {
+      return C[10] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[11] || CT.C11,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 97,
+        [_Location_file]: "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/vxstate-2.1.0/lib/src/vxstate.dart"
+      });
+    }
+  }, false);
+  var C = Array(14).fill(void 0);
+  var I = [
+    "package:vxstate/src/vxstate.dart",
+    "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/vxstate-2.1.0/lib/src/vxmutation.dart"
+  ];
+  var _name$ = dart.privateName(vxstate, "_name");
+  vxstate.VxStatus = class VxStatus extends core.Object {
+    toString() {
+      return this[_name$];
+    }
+  };
+  (vxstate.VxStatus.new = function(index, _name) {
+    this.index = index;
+    this[_name$] = _name;
+    ;
+  }).prototype = vxstate.VxStatus.prototype;
+  dart.addTypeTests(vxstate.VxStatus);
+  dart.addTypeCaches(vxstate.VxStatus);
+  dart.setLibraryUri(vxstate.VxStatus, I[0]);
+  dart.setFieldSignature(vxstate.VxStatus, () => ({
+    __proto__: dart.getFields(vxstate.VxStatus.__proto__),
+    index: dart.finalFieldType(core.int),
+    [_name$]: dart.finalFieldType(core.String)
+  }));
+  dart.defineExtensionMethods(vxstate.VxStatus, ['toString']);
+  vxstate.VxStatus.none = C[0] || CT.C0;
+  vxstate.VxStatus.loading = C[1] || CT.C1;
+  vxstate.VxStatus.success = C[2] || CT.C2;
+  vxstate.VxStatus.error = C[3] || CT.C3;
+  vxstate.VxStatus.values = C[4] || CT.C4;
+  vxstate.VxStore = class VxStore extends core.Object {};
+  (vxstate.VxStore.new = function() {
+    ;
+  }).prototype = vxstate.VxStore.prototype;
+  dart.addTypeTests(vxstate.VxStore);
+  dart.addTypeCaches(vxstate.VxStore);
+  dart.setLibraryUri(vxstate.VxStore, I[0]);
+  var child$ = dart.privateName(vxstate, "VxState.child");
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  vxstate.VxState = class VxState extends framework.StatelessWidget {
+    get child() {
+      return this[child$];
+    }
+    set child(value) {
+      super.child = value;
+    }
+    static get _interceptors() {
+      let t0;
+      t0 = vxstate.VxState['_#_interceptors'];
+      return t0 == null ? dart.throw(new _internal.LateError.fieldNI("_interceptors")) : t0;
+    }
+    static set _interceptors(t0) {
+      vxstate.VxState['_#_interceptors'] = t0;
+    }
+    static get events() {
+      return vxstate.VxState._events.stream;
+    }
+    static get store() {
+      return dart.nullCheck(vxstate.VxState._store);
+    }
+    static notify(mutation) {
+      vxstate.VxState._buffer.add(mutation[$runtimeType]);
+      vxstate.VxState._events.add(mutation);
+    }
+    static streamOf(mutation) {
+      return vxstate.VxState._events.stream.where(dart.fn(e => e[$runtimeType]._equals(mutation), T$.VxMutationOfVxStoreNTobool()));
+    }
+    static watch(context, opts) {
+      let on = opts && 'on' in opts ? opts.on : null;
+      for (let mutant of on) {
+        context.dependOnInheritedWidgetOfExactType(vxstate._VxStateModel, {aspect: mutant});
+      }
+    }
+    debugFillProperties(properties) {
+      super.debugFillProperties(properties);
+      vxstate.VxState.events.forEach(dart.fn(element => {
+        properties.add(new (T$.DiagnosticsPropertyOfString()).new(element[$runtimeType].toString(), dart.toString(element.store)));
+      }, T$.VxMutationOfVxStoreNTovoid()));
+    }
+    build(context) {
+      return new (T$.StreamBuilderOfVxMutationOfVxStoreN()).new({stream: vxstate.VxState._events.stream, builder: dart.fn((context, _) => {
+          let t1;
+          let clone = null;
+          if (vxstate.VxState._buffer[$isNotEmpty]) {
+            clone = (t1 = T$.LinkedHashSetOfType().new(), (() => {
+              t1.addAll(vxstate.VxState._buffer);
+              return t1;
+            })());
+            vxstate.VxState._buffer.clear();
+          } else {
+            clone = vxstate.VxState._buffer;
+          }
+          return new vxstate._VxStateModel.new({child: dart.nullCheck(this.child), recent: T$.SetNOfType().as(clone), $creationLocationd_0dea112b090073317d4: C[6] || CT.C6});
+        }, T$.BuildContextAndAsyncSnapshotOfObjectNTo_VxStateModel()), $creationLocationd_0dea112b090073317d4: C[10] || CT.C10});
+    }
+  };
+  (vxstate.VxState.new = function(opts) {
+    let store = opts && 'store' in opts ? opts.store : null;
+    let child = opts && 'child' in opts ? opts.child : null;
+    let interceptors = opts && 'interceptors' in opts ? opts.interceptors : C[5] || CT.C5;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    this[child$] = child;
+    vxstate.VxState.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    vxstate.VxState._store = store;
+    vxstate.VxState._interceptors = interceptors;
+  }).prototype = vxstate.VxState.prototype;
+  dart.addTypeTests(vxstate.VxState);
+  dart.addTypeCaches(vxstate.VxState);
+  dart.setMethodSignature(vxstate.VxState, () => ({
+    __proto__: dart.getMethods(vxstate.VxState.__proto__),
+    build: dart.fnType(framework.Widget, [framework.BuildContext])
+  }));
+  dart.setLibraryUri(vxstate.VxState, I[0]);
+  dart.setFieldSignature(vxstate.VxState, () => ({
+    __proto__: dart.getFields(vxstate.VxState.__proto__),
+    child: dart.finalFieldType(dart.nullable(framework.Widget))
+  }));
+  dart.defineLazy(vxstate.VxState, {
+    /*vxstate.VxState['_#_interceptors']*/get ['_#_interceptors']() {
+      return null;
+    },
+    set ['_#_interceptors'](_) {},
+    /*vxstate.VxState._events*/get _events() {
+      return T$.StreamControllerOfVxMutationOfVxStoreN().broadcast();
+    },
+    /*vxstate.VxState._store*/get _store() {
+      return null;
+    },
+    set _store(_) {},
+    /*vxstate.VxState._buffer*/get _buffer() {
+      return T$.LinkedHashSetOfType().new();
+    }
+  }, false);
+  var recent$ = dart.privateName(vxstate, "_VxStateModel.recent");
+  vxstate._VxStateModel = class _VxStateModel extends inherited_model.InheritedModel {
+    get recent() {
+      return this[recent$];
+    }
+    set recent(value) {
+      super.recent = value;
+    }
+    updateShouldNotify(oldWidget) {
+      framework.InheritedWidget.as(oldWidget);
+      return oldWidget.hashCode !== dart.hashCode(this.recent);
+    }
+    updateShouldNotifyDependent(oldWidget, dependencies) {
+      inherited_model.InheritedModel.as(oldWidget);
+      core.Set.as(dependencies);
+      return dependencies.intersection(dart.nullCheck(this.recent))[$isNotEmpty];
+    }
+  };
+  (vxstate._VxStateModel.new = function(opts) {
+    let child = opts && 'child' in opts ? opts.child : null;
+    let recent = opts && 'recent' in opts ? opts.recent : null;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    this[recent$] = recent;
+    vxstate._VxStateModel.__proto__.new.call(this, {child: child, $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = vxstate._VxStateModel.prototype;
+  dart.addTypeTests(vxstate._VxStateModel);
+  dart.addTypeCaches(vxstate._VxStateModel);
+  dart.setMethodSignature(vxstate._VxStateModel, () => ({
+    __proto__: dart.getMethods(vxstate._VxStateModel.__proto__),
+    updateShouldNotify: dart.fnType(core.bool, [dart.nullable(core.Object)]),
+    updateShouldNotifyDependent: dart.fnType(core.bool, [dart.nullable(core.Object), dart.nullable(core.Object)])
+  }));
+  dart.setLibraryUri(vxstate._VxStateModel, I[0]);
+  dart.setFieldSignature(vxstate._VxStateModel, () => ({
+    __proto__: dart.getFields(vxstate._VxStateModel.__proto__),
+    recent: dart.finalFieldType(dart.nullable(core.Set$(core.Type)))
+  }));
+  var status = dart.privateName(vxstate, "VxMutation.status");
+  var _laterMutations = dart.privateName(vxstate, "_laterMutations");
+  var _run = dart.privateName(vxstate, "_run");
+  const _is_VxMutation_default = Symbol('_is_VxMutation_default');
+  vxstate.VxMutation$ = dart.generic(T => {
+    var TN = () => (TN = dart.constFn(dart.nullable(T)))();
+    class VxMutation extends core.Object {
+      get status() {
+        return this[status];
+      }
+      set status(value) {
+        this[status] = value;
+      }
+      get store() {
+        return TN().as(vxstate.VxState.store);
+      }
+      [_run]() {
+        return async.async(dart.void, (function* _run() {
+          for (let i of vxstate.VxState._interceptors) {
+            if (!i.beforeMutation(this)) {
+              return;
+            }
+          }
+          try {
+            let result = this.perform();
+            if (async.Future.is(result)) {
+              this.status = vxstate.VxStatus.loading;
+              vxstate.VxState.notify(this);
+              result = (yield result);
+            }
+            if (result != null && vxstate.VxEffects.is(this)) {
+              let out = vxstate.VxEffects.as(this).fork(result);
+              if (async.Future.is(out)) {
+                yield out;
+              }
+              this.status = vxstate.VxStatus.success;
+              vxstate.VxState.notify(this);
+            }
+            vxstate.VxState.notify(this);
+            this.status = vxstate.VxStatus.success;
+            for (let mut of this[_laterMutations]) {
+              mut();
+            }
+          } catch (e$) {
+            let e = dart.getThrown(e$);
+            let s = dart.stackTrace(e$);
+            if (core.Object.is(e)) {
+              this.status = vxstate.VxStatus.error;
+              this.onException(e, s);
+              vxstate.VxState.notify(this);
+            } else
+              throw e$;
+          }
+          for (let i of vxstate.VxState._interceptors) {
+            i.afterMutation(this);
+          }
+        }).bind(this));
+      }
+      next(mutationBuilder) {
+        this[_laterMutations][$add](mutationBuilder);
+      }
+      onException(e, s) {
+        let isAssertOn = false;
+        if (!(isAssertOn = true)) dart.assertFailed(null, I[1], 100, 12, "isAssertOn = true");
+        if (isAssertOn) {
+          core.print(e);
+          core.print(s);
+        }
+      }
+    }
+    (VxMutation.new = function() {
+      this[status] = null;
+      this[_laterMutations] = T$.JSArrayOfVoidToVxMutationOfVxStoreN().of([]);
+      this.status = vxstate.VxStatus.none;
+      this[_run]();
+    }).prototype = VxMutation.prototype;
+    dart.addTypeTests(VxMutation);
+    VxMutation.prototype[_is_VxMutation_default] = true;
+    dart.addTypeCaches(VxMutation);
+    dart.setMethodSignature(VxMutation, () => ({
+      __proto__: dart.getMethods(VxMutation.__proto__),
+      [_run]: dart.fnType(async.Future$(dart.void), []),
+      next: dart.fnType(dart.void, [dart.fnType(vxstate.VxMutation$(dart.nullable(vxstate.VxStore)), [])]),
+      onException: dart.fnType(dart.void, [dart.dynamic, core.StackTrace])
+    }));
+    dart.setGetterSignature(VxMutation, () => ({
+      __proto__: dart.getGetters(VxMutation.__proto__),
+      store: dart.nullable(T)
+    }));
+    dart.setLibraryUri(VxMutation, I[0]);
+    dart.setFieldSignature(VxMutation, () => ({
+      __proto__: dart.getFields(VxMutation.__proto__),
+      status: dart.fieldType(dart.nullable(vxstate.VxStatus)),
+      [_laterMutations]: dart.finalFieldType(core.List$(dart.fnType(vxstate.VxMutation$(dart.nullable(vxstate.VxStore)), [])))
+    }));
+    return VxMutation;
+  });
+  vxstate.VxMutation = vxstate.VxMutation$();
+  dart.addTypeTests(vxstate.VxMutation, _is_VxMutation_default);
+  const _is_VxEffects_default = Symbol('_is_VxEffects_default');
+  vxstate.VxEffects$ = dart.generic(ON => {
+    class VxEffects extends core.Object {}
+    VxEffects[dart.mixinOn] = Object => class VxEffects extends Object {};
+    (VxEffects[dart.mixinNew] = function() {
+    }).prototype = VxEffects.prototype;
+    dart.addTypeTests(VxEffects);
+    VxEffects.prototype[_is_VxEffects_default] = true;
+    dart.addTypeCaches(VxEffects);
+    VxEffects[dart.implements] = () => [core.Object];
+    dart.setLibraryUri(VxEffects, I[0]);
+    return VxEffects;
+  });
+  vxstate.VxEffects = vxstate.VxEffects$();
+  dart.addTypeTests(vxstate.VxEffects, _is_VxEffects_default);
+  vxstate.VxInterceptor = class VxInterceptor extends core.Object {};
+  (vxstate.VxInterceptor.new = function() {
+    ;
+  }).prototype = vxstate.VxInterceptor.prototype;
+  dart.addTypeTests(vxstate.VxInterceptor);
+  dart.addTypeCaches(vxstate.VxInterceptor);
+  dart.setLibraryUri(vxstate.VxInterceptor, I[0]);
+  dart.trackLibraries("packages/vxstate/src/vxstate.dart", {
+    "package:vxstate/src/vxstate.dart": vxstate
+  }, {
+    "package:vxstate/src/vxstate.dart": ["inherited_model.dart", "vxmutation.dart"]
+  }, '{"version":3,"sourceRoot":"","sources":["vxstate.dart","inherited_model.dart","vxmutation.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAe8C;;0CAAzC;;;;EAAyC;;;;;;;;;;;;;;;;;;EAItB;;;;;;;;;;;IAMR;;;;;;;;AAGkB;;IAAa;;AAAb;IAAa;;AAQL,YAAA,AAAQ;IAAM;;AAO1B,YAAM,gBAAN;IAAO;kBAOL;AAIK,MAAjC,AAAQ,4BAAI,AAAS,QAAD;AACC,MAArB,AAAQ,4BAAI,QAAQ;IACtB;oBAKwC;AACtC,YAAO,AAAQ,AAAO,sCAAM,QAAC,KAAM,AAAE,AAAY,CAAb,uBAAgB,QAAQ;IAC9D;iBAI+B;UAA8B;AAC3D,eAAW,SAAU,GAAE;AAGpB,QAFD,AAAQ,OAAD,oEACG,MAAM;;IAGpB;wBAGqD;AACd,MAA/B,0BAAoB,UAAU;AAIlC,MAHF,AAAO,+BAAQ,QAAC;AAEgD,QAD9D,AAAW,UAAD,KAAK,2CACX,AAAQ,AAAY,OAAb,2BAAuC,cAAd,AAAQ,OAAD;;IAE/C;UAa0B;AACxB,YAAO,6DACG,AAAQ,yCACP,SAAC,SAAS;;AAIb;AACJ,cAAI,AAAQ;AACuB,YAAjC,8CAAc;AAAI,wBAAO;;;AACV,YAAf,AAAQ;;AAEO,YAAf,QAAQ;;AAKV,gBAAO,uCAA0B,eAAL,wCAAgB,KAAK;;IAGvD;;;QA7BmB;QACH;QACM;;IADN;AAFhB;AAKwB,IAAd,yBAAS,KAAK;AACc,IAA5B,gCAAgB,YAAY;EACtC;;;;;;;;;;;;;MAhEgC,kCAClC;YADkC;;;MAIoB,uBAAO;YACvD;;MAMY,sBAAM;;;;MAQC,uBAAO;YAAS;;;;;IC1CtB;;;;;;;mCAMiC;AAC9C,YAAA,AAAU,AAAS,UAAV,cAAoB,cAAP;IAAe;gCAIZ,WAAe;wCAAf;kBAAe;AAG1C,YAAO,AAAa,AAAsB,aAAvB,cAAoB,eAAN;IACnC;;;QAbqC;QAAY;;;AAC3C,2DAAa,KAAK;;EAAC;;;;;;;;;;;;;;;;;;;;MCKf;;;;;;;AAHM,cAAc,SAAN;MAAW;;AAgBlB;AAEf,mBAAW,IAAa;AACtB,iBAAK,AAAE,CAAD,gBAAgB;AACpB;;;AAIJ;AAKU,yBAAS;AACjB,gBAAW,gBAAP,MAAM;AACiB,cAAzB,cAAkB;AACE,cAAZ,uBAAO;AACM,cAArB,UAAS,MAAM,MAAM;;AAOvB,gBAAI,MAAM,YAAiB,qBAAL;AACN,wBAAY,AAAc,qBAAnB,WAAwB,MAAM;AACnD,kBAAQ,gBAAJ,GAAG;AACI,gBAAT,MAAM,GAAG;;AAEc,cAAzB,cAAkB;AACE,cAAZ,uBAAO;;AAGG,YAAZ,uBAAO;AACU,YAAzB,cAAkB;AAGlB,qBAAW,MAAO;AACX,cAAL,AAAG,GAAA;;;gBAGE;gBAAG;AAAV;AACuB,cAAvB,cAAkB;AAID,cAAjB,iBAAY,CAAC,EAAE,CAAC;AACI,cAAZ,uBAAO;;;;AAIjB,mBAAW,IAAa;AACD,YAArB,AAAE,CAAD,eAAe;;QAEpB;;WAG4B;AACU,QAApC,AAAgB,4BAAI,eAAe;MACrC;kBAYyB,GAAc;AACjC,yBAAa;AACjB,cAAO,aAAa;AACpB,YAAI,UAAU;AACJ,UAAR,WAAM,CAAC;AACC,UAAR,WAAM,CAAC;;MAEX;;;MA3FU;MAGoB,wBAAkB;AAKxB,MAAtB,cAAkB;AACZ,MAAN;IACF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAqGF","file":"../../../../../../../packages/vxstate/src/vxstate.dart.lib.js"}');
+  // Exports:
+  return {
+    src__vxstate: vxstate
+  };
+}));
+
+//# sourceMappingURL=vxstate.dart.lib.js.map

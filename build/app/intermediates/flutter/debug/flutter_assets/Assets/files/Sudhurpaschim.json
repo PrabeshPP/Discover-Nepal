@@ -1,0 +1,76 @@
+{
+    "sudhurpaschim":[
+        {
+            "name":"Tikapur Park",
+            "image":"https://risingnepaldaily.com/banner_image/5fcb136dbfdb4_8vczFWFsEaum2OxMYYT1.jpg",
+            "desc":"Tikapur Great Garden (Tikapur Park) is a tourist attraction in Tikapur, Nepal. It is located on the shore of the Karnali River and serves people with the variety of flowers and trees. There is a boating facility on the river and a couple of beaches where people can swim or take a sun bath. In the past it is used to be a royal bungalow of late king Birendra."
+        },
+        {
+            "name":"Shuklaphanta National Park",
+            "image":"https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2019/03/deer.jpg",
+            "desc":"Shukla Phanta National Park was managed as a hunting reserve at the beginning in1969. It has been gazetted as a Wildlife Reserve in 1976 and as National Park currently (2017), covering an area of 305 sq. km. It lies in the extreme south-western section of Nepal's Terai in Kanchanpur District. The National Park shares a common boundary with the Indian state of Uttar Pradesh in the south and west which is formed by the Mahakali (Sarda)river, a major tributary of the Ganges. It is bordered on the eastern side by the Chaudhar River and to the north by a forest belt and cultivations. A total of 24 mammal species are recorded by Schaff (1978b), a total of 350 species of birds of which 180 are breeding species (Inskipp, 1989), Bhatt and Shrestha (1977) provide an annotated list of 14 species of fish, Schaaf (1978b) recorded 10 species of ectoparasites and biting flies. Although, the area of the National Park is small, it supports a wide range of biodiversity which is nationally and globally important. The vegetation types primarily include sal forest, sal savanna, which is part of continuum between climax forest and grassland that is maintained by fire and floods. The National Park supports the largest population of Bengal florican Houbaropsis bengalensis."
+        },
+        {
+            "name":"khaptad national park",
+            "image":"https://media-cdn.tripadvisor.com/media/photo-m/1280/16/c5/93/67/the-revered-saint-khaptad.jpg",
+            "desc":"Khaptad National Park is located in the Far-western region of Nepal. The park was gazetted in 1984 covering an area of 225 sq. km. The area of buffer zone is 216 sq.km. The park is the only mid-mountain national park in western Nepal, representing a unique and important ecosystem. The late Khaptad Swami moved to the area in 1940's to meditate and worship. He spent about 50 years as a hermit and became a renowned spiritual saint."
+        },
+        {
+            "name":"Dhodhara Chandani",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/a/a4/Suspension_bridge_of_dodhara_chandani.jpg",
+            "desc":"The Dodhara Chandani Bridge , commonly known as Mahakali Bridge is a suspension bridge  for pedestrians and at this point only about 1496.5 m long over Mahakali River in the far west of Nepal.\nThe Dodhara Chandani Bridge is a sequence of four suspension bridges with eight pylons, which are anchored to large anchor blocks on both banks as well as three common anchor blocks in the river bed. The lands between the 32.72-metre-high (107.3 ft) pylons have a wingspan of 225.40 m, the webs between the anchors and the pylons have a wingspan of almost 70 meters. The bridge segments are curved slightly upwards. The result is a series of arches of spans of 70 + 225.40 + 70 + 70 + 70 + 70 + 225.40 + 225.40 + 70 + 70 + 70 + 225.40 with a total length of 1452.96 m plus of approximately 20 m long anchor blocks on the banks.\nThe bridge consists of the steel pylons and essentially of wire ropes. The hangers are thin metal rods, which are connected to each other with eyes. The 1.60-metre-wide (5.2 ft) bridge deck is a sturdy metal grille. On both sides serve ropes as handrails, which are connected by wire mesh with the bridge deck. Diagonal cables between the railings and the underlying longitudinal cables are used for stiffening, as well as some stay cables of the pylons for the bridge deck. Side, anchored in the riverbed ropes dampen fluctuations.\nThe bridge is designed as a pedestrian bridge, but bicycles and motorcycles can use the bridge as well. There is enough room so that motorcycles can pass even if they are fully loaded. All traffic travels on the left-hand side, as everywhere else in Nepal."
+        },
+        {
+            "name":"Aircraft Museum Dhangadi",
+            "image":"https://b4visit.com/wp-content/uploads/2020/03/Aircraft-Museum-1440x1080.jpg",
+            "desc":"Aircraft Museum Dhangadhi is an aviation museum located in Dhangadhi, Nepal some 500 km west from Kathmandu. It was established by former Nepalese pilot Bed Upreti and his trust on 17 September 2014 as the first aircraft museum of Nepal.The museum is inside a defunct Fokker-100 plane, which is 35.53 meters long and was operated by Cosmic Air until its shut down in 2008.There are around 200 miniature commercial planes and fighter jets on display. Along with the miniature planes, there are aerial photo gallery and cockpit cafe. The revenue from the museum is used to assist cancer patients. A second museum, the Aviation Museum Kathmandu, has been established in the capital of Nepal, Kathmandu by Bed Upreti Trust in 2017 following the success of the Aircraft Museum Dhangadhi."
+        }
+
+    ],
+    "More Images":[
+        {
+            "img1":"https://risingnepaldaily.com/banner_image/5fcb136dbfdb4_8vczFWFsEaum2OxMYYT1.jpg",
+            "img2":"https://4.bp.blogspot.com/-pr9hj9g0kPE/Ty0dVFylKQI/AAAAAAAAAGI/FJ6Nj3RIVJI/s1600/tikapur_park.jpg",
+            "img3":"https://nepaltraveller.com/uploads/destination/tikapur.jpg"
+        },
+        {
+            "img1":"https://tigerencounter.com/wp-content/uploads/2019/12/Suklaphanta-National-Park.jpg",
+            "img2":"https://www.nepaltrekking.com/wp-content/uploads/2019/03/shuklaphanta-natiional-park-975x540.jpg",
+            "img3":"https://s3.ap-south-1.amazonaws.com/chsfiles/media/PHTAZTT2Qq23zlscY0571oBvNF0pwvsHZaPlSZik.jpeg"
+        },
+        {
+            "img1":"https://www.welcomenepal.com/uploads/destination/khaptad-bbt-trekking.jpeg",
+            "img2":"https://www.nepabooking.com/storage/tour_images/Khaptad%20National%20Park%20Trek_p1dup4j9q0i2u1vds1vor60qsq14.jpg",
+            "img3":"https://media-cdn.tripadvisor.com/media/photo-m/1280/16/c5/93/67/the-revered-saint-khaptad.jpg"
+        },
+        {
+            "img1":"https://upload.wikimedia.org/wikipedia/commons/a/a4/Suspension_bridge_of_dodhara_chandani.jpg",
+            "img2":"https://3.bp.blogspot.com/-He6qFJLVB8s/WIoLzWTCTTI/AAAAAAAAPEg/dQ9KZ3rJWTYaXxVVZup0MR4JAFaXohR2ACLcB/s1600/10453460_787458074651379_6365892886777233625_n.jpg",
+            "img3":"https://photographylife.com/wp-content/uploads/2015/08/DSC0140-2.jpg"
+        },
+        {
+            "img1":"https://media-cdn.tripadvisor.com/media/photo-s/0d/ce/58/e6/the-aircrafts-museum.jpg",
+            "img2":"https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzAwOWI0NTljN2JmYTg4NDg1M18xMDYxMDYxNV8zMDA5NjgxNTAxMTE1MDVfNDgyMTI0NDAyNDMyODE1NDM5NV9uLmpwZyJdLFsicCIsInRodW1iIiwieDM5MD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d",
+            "img3":"https://3.bp.blogspot.com/-bsD9oAfA7ho/WEs14qPaQAI/AAAAAAAAO-E/CS_5otaLwBw_kPTjzQ_R7dUIbT1Eaf-GgCEw/s1600/Aircraft%2BDhangadhi.jpg"
+        }
+
+    ],
+    "Weather Name":[
+        {
+            "name":"Tikapur"
+        },
+        {
+            "name":"Mahendranagar"
+        },
+        {
+            "name":"Dipayal"
+        },
+        {
+            "name":"Banbasa"
+        },
+        {
+            "name":"Dhangadhi"
+        }
+
+    ]
+}

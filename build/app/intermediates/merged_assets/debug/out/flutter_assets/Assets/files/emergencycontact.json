@@ -1,0 +1,40 @@
+{
+    "Emergency Contacts":[
+        {
+        "name":"Medicare National Hospital - Ambulance",
+        "Contact":"01-4467067"
+        },
+        {
+            "name":"Police Control",
+            "Contact":"100"
+            },
+        
+        {
+                "name":"Police Emergency Number",
+                "Contact":"01-4228435"
+        },
+        {
+        "name":"Metropolitan Police Range (Kathmandu)",
+        "Contact":"01-4261945"
+        },
+        {
+            "name":"Metropolitan Police Range (Lalitpur)",
+            "Contact":"01-5521207"
+        },
+        {
+            "name":"Metropolitan Police Range (Bhaktapur)",
+            "Contact":"01-6614821"
+        },
+        {
+            "name":"Paropakar Ambulance Service",
+            "Contact":"01-4260859"
+        },
+        {
+            "name":"Lalitpur Redcross Ambulance",
+            "Contact":"01-5545666"
+        }
+       
+                            
+        
+    ]
+}

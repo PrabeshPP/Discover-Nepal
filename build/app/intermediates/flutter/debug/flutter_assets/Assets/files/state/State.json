@@ -1,0 +1,41 @@
+{
+    "stateData":[
+        {
+            "id":1,
+            "name":" Province 1",
+            "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/fe/70/8f/breathtaking-view-of.jpg?w=700&h=500&s=1"
+            
+        },
+        {
+            "id":2,
+            "name":"Province 2" ,
+            "image":"https://myrepublica.nagariknetwork.com/uploads/media/2019/April/Tiger-wildlife.jpg"
+        },
+        {
+            "id":3,
+            "name":"Bagmati Province",
+            "image":"https://cloud.tourismcore.com/uploads/destinations/places/pashupatinath-500x500.jpg"
+        },
+        {
+            "id":4,
+            "name":"Gandaki Province",
+            "image":"https://holeinthedonut.com/wp-content/uploads/2018/03/Nepal-Pokhara-Wooden-boats-on-Phewa-Lake.jpg"
+        },
+        {
+            "id":5,
+            "name":"Lumbini Province",
+            "image":"https://www.nepalitimes.com/wp-content/uploads/2019/03/page-8-9a-2.jpg"
+        },
+        {
+            "id":6,
+            "name":"Karnali Province",
+            "image":"https://www.nepalitimes.com/wp-content/uploads/2019/01/page-8-9a-1.jpg"
+        },
+        {
+            "id":7,
+            "name":"Sudurpashchim Province",
+            "image":"http://ghumante.com/wp-content/uploads/2015/07/CG5A1084-1080x675.jpg"
+        }
+    ]
+
+}

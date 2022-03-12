@@ -1,0 +1,426 @@
+define(['dart_sdk', 'packages/provider/src/provider.dart', 'packages/provider/src/listenable_provider.dart', 'packages/nepaltourisguide/utils/connectivity_provider.dart', 'packages/flutter/src/widgets/widget_span.dart', 'packages/nepaltourisguide/screens/auth.dart', 'packages/nepaltourisguide/PopularDestinations/province1.dart', 'packages/nested/nested.dart', 'packages/flutter/src/material/app.dart', 'packages/nepaltourisguide/widget/theme.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/nepaltourisguide/routes/routes.dart', 'packages/nepaltourisguide/screens/nthg.dart', 'packages/nepaltourisguide/PopularDestinations/province2.dart', 'packages/nepaltourisguide/PopularDestinations/bagmati.dart', 'packages/nepaltourisguide/Sub_screens/traveldesk.dart', 'packages/firebase_core/firebase_core.dart', 'packages/vxstate/src/vxstate.dart', 'packages/nepaltourisguide/utils/store.dart', 'packages/flutter/src/services/system_chrome.dart'], (function load__packages__nepaltourisguide__main_dart(dart_sdk, packages__provider__src__provider$46dart, packages__provider__src__listenable_provider$46dart, packages__nepaltourisguide__utils__connectivity_provider$46dart, packages__flutter__src__widgets__widget_span$46dart, packages__nepaltourisguide__screens__auth$46dart, packages__nepaltourisguide__PopularDestinations__province1$46dart, packages__nested__nested$46dart, packages__flutter__src__material__app$46dart, packages__nepaltourisguide__widget__theme$46dart, packages__flutter__src__material__icon_button$46dart, packages__nepaltourisguide__routes__routes$46dart, packages__nepaltourisguide__screens__nthg$46dart, packages__nepaltourisguide__PopularDestinations__province2$46dart, packages__nepaltourisguide__PopularDestinations__bagmati$46dart, packages__nepaltourisguide__Sub_screens__traveldesk$46dart, packages__firebase_core__firebase_core$46dart, packages__vxstate__src__vxstate$46dart, packages__nepaltourisguide__utils__store$46dart, packages__flutter__src__services__system_chrome$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const _interceptors = dart_sdk._interceptors;
+  const _js_helper = dart_sdk._js_helper;
+  const async = dart_sdk.async;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const provider = packages__provider__src__provider$46dart.src__provider;
+  const change_notifier_provider = packages__provider__src__listenable_provider$46dart.src__change_notifier_provider;
+  const connectivity_provider = packages__nepaltourisguide__utils__connectivity_provider$46dart.utils__connectivity_provider;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const binding = packages__flutter__src__widgets__widget_span$46dart.src__widgets__binding;
+  const homepage = packages__nepaltourisguide__screens__auth$46dart.screens__homepage;
+  const auth = packages__nepaltourisguide__screens__auth$46dart.screens__auth;
+  const signup = packages__nepaltourisguide__screens__auth$46dart.screens__signup;
+  const province1 = packages__nepaltourisguide__PopularDestinations__province1$46dart.PopularDestinations__province1;
+  const nested = packages__nested__nested$46dart.nested;
+  const app = packages__flutter__src__material__app$46dart.src__material__app;
+  const theme = packages__nepaltourisguide__widget__theme$46dart.widget__theme;
+  const theme_data = packages__flutter__src__material__icon_button$46dart.src__material__theme_data;
+  const routes = packages__nepaltourisguide__routes__routes$46dart.routes__routes;
+  const nthg = packages__nepaltourisguide__screens__nthg$46dart.screens__nthg;
+  const province2 = packages__nepaltourisguide__PopularDestinations__province2$46dart.PopularDestinations__province2;
+  const bagmati = packages__nepaltourisguide__PopularDestinations__bagmati$46dart.PopularDestinations__bagmati;
+  const traveldesk = packages__nepaltourisguide__Sub_screens__traveldesk$46dart.Sub_screens__traveldesk;
+  const firebase_core = packages__firebase_core__firebase_core$46dart.firebase_core;
+  const vxstate = packages__vxstate__src__vxstate$46dart.src__vxstate;
+  const store = packages__nepaltourisguide__utils__store$46dart.utils__store;
+  const system_chrome = packages__flutter__src__services__system_chrome$46dart.src__services__system_chrome;
+  var main = Object.create(dart.library);
+  dart._checkModuleNullSafetyMode(true);
+  var T = {
+    ChangeNotifierProviderOfConnectivityProvider: () => (T.ChangeNotifierProviderOfConnectivityProvider = dart.constFn(change_notifier_provider.ChangeNotifierProvider$(connectivity_provider.ConnectivityProvider)))(),
+    BuildContextToConnectivityProvider: () => (T.BuildContextToConnectivityProvider = dart.constFn(dart.fnType(connectivity_provider.ConnectivityProvider, [framework.BuildContext])))(),
+    JSArrayOfSingleChildWidget: () => (T.JSArrayOfSingleChildWidget = dart.constFn(_interceptors.JSArray$(nested.SingleChildWidget)))(),
+    ThemeDataN: () => (T.ThemeDataN = dart.constFn(dart.nullable(theme_data.ThemeData)))(),
+    BuildContextToPopularDestinations: () => (T.BuildContextToPopularDestinations = dart.constFn(dart.fnType(province1.PopularDestinations, [framework.BuildContext])))(),
+    BuildContextToNothing: () => (T.BuildContextToNothing = dart.constFn(dart.fnType(nthg.Nothing, [framework.BuildContext])))(),
+    BuildContextToProvince2: () => (T.BuildContextToProvince2 = dart.constFn(dart.fnType(province2.Province2, [framework.BuildContext])))(),
+    BuildContextToBagmatiProvince: () => (T.BuildContextToBagmatiProvince = dart.constFn(dart.fnType(bagmati.BagmatiProvince, [framework.BuildContext])))(),
+    BuildContextToTravelDesk: () => (T.BuildContextToTravelDesk = dart.constFn(dart.fnType(traveldesk.TravelDesk, [framework.BuildContext])))(),
+    BuildContextToAuthentication: () => (T.BuildContextToAuthentication = dart.constFn(dart.fnType(auth.Authentication, [framework.BuildContext])))(),
+    BuildContextToSignUp: () => (T.BuildContextToSignUp = dart.constFn(dart.fnType(signup.SignUp, [framework.BuildContext])))(),
+    BuildContextToWidget: () => (T.BuildContextToWidget = dart.constFn(dart.fnType(framework.Widget, [framework.BuildContext])))(),
+    IdentityMapOfString$BuildContextToWidget: () => (T.IdentityMapOfString$BuildContextToWidget = dart.constFn(_js_helper.IdentityMap$(core.String, T.BuildContextToWidget())))(),
+    JSArrayOfDeviceOrientation: () => (T.JSArrayOfDeviceOrientation = dart.constFn(_interceptors.JSArray$(system_chrome.DeviceOrientation)))()
+  };
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C1() {
+      return C[1] = dart.constList([], widget_inspector._Location);
+    },
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 36,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C4() {
+      return C[4] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "create",
+        [_Location_column]: 15,
+        [_Location_line]: 35,
+        [_Location_file]: null
+      });
+    },
+    get C5() {
+      return C[5] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 15,
+        [_Location_line]: 36,
+        [_Location_file]: null
+      });
+    },
+    get C3() {
+      return C[3] = dart.constList([C[4] || CT.C4, C[5] || CT.C5], widget_inspector._Location);
+    },
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[3] || CT.C3,
+        [_Location_name]: null,
+        [_Location_column]: 11,
+        [_Location_line]: 34,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C6() {
+      return C[6] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 20,
+        [_Location_line]: 39,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C9() {
+      return C[9] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "create",
+        [_Location_column]: 13,
+        [_Location_line]: 38,
+        [_Location_file]: null
+      });
+    },
+    get C10() {
+      return C[10] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 13,
+        [_Location_line]: 39,
+        [_Location_file]: null
+      });
+    },
+    get C8() {
+      return C[8] = dart.constList([C[9] || CT.C9, C[10] || CT.C10], widget_inspector._Location);
+    },
+    get C7() {
+      return C[7] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[8] || CT.C8,
+        [_Location_name]: null,
+        [_Location_column]: 11,
+        [_Location_line]: 37,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C11() {
+      return C[11] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 17,
+        [_Location_line]: 43,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 53,
+        [_Location_line]: 50,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C13() {
+      return C[13] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 39,
+        [_Location_line]: 51,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C14() {
+      return C[14] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 40,
+        [_Location_line]: 52,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C15() {
+      return C[15] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 42,
+        [_Location_line]: 53,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C16() {
+      return C[16] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 45,
+        [_Location_line]: 54,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C17() {
+      return C[17] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 39,
+        [_Location_line]: 55,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C18() {
+      return C[18] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 41,
+        [_Location_line]: 56,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C21() {
+      return C[21] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "home",
+        [_Location_column]: 11,
+        [_Location_line]: 43,
+        [_Location_file]: null
+      });
+    },
+    get C22() {
+      return C[22] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "debugShowCheckedModeBanner",
+        [_Location_column]: 11,
+        [_Location_line]: 44,
+        [_Location_file]: null
+      });
+    },
+    get C23() {
+      return C[23] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "themeMode",
+        [_Location_column]: 11,
+        [_Location_line]: 45,
+        [_Location_file]: null
+      });
+    },
+    get C24() {
+      return C[24] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "theme",
+        [_Location_column]: 11,
+        [_Location_line]: 46,
+        [_Location_file]: null
+      });
+    },
+    get C25() {
+      return C[25] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "darkTheme",
+        [_Location_column]: 11,
+        [_Location_line]: 47,
+        [_Location_file]: null
+      });
+    },
+    get C26() {
+      return C[26] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "initialRoute",
+        [_Location_column]: 11,
+        [_Location_line]: 48,
+        [_Location_file]: null
+      });
+    },
+    get C27() {
+      return C[27] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "routes",
+        [_Location_column]: 11,
+        [_Location_line]: 49,
+        [_Location_file]: null
+      });
+    },
+    get C20() {
+      return C[20] = dart.constList([C[21] || CT.C21, C[22] || CT.C22, C[23] || CT.C23, C[24] || CT.C24, C[25] || CT.C25, C[26] || CT.C26, C[27] || CT.C27], widget_inspector._Location);
+    },
+    get C19() {
+      return C[19] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[20] || CT.C20,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 42,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C30() {
+      return C[30] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "providers",
+        [_Location_column]: 9,
+        [_Location_line]: 33,
+        [_Location_file]: null
+      });
+    },
+    get C31() {
+      return C[31] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 9,
+        [_Location_line]: 42,
+        [_Location_file]: null
+      });
+    },
+    get C29() {
+      return C[29] = dart.constList([C[30] || CT.C30, C[31] || CT.C31], widget_inspector._Location);
+    },
+    get C28() {
+      return C[28] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[29] || CT.C29,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 32,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C32() {
+      return C[32] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 43,
+        [_Location_line]: 22,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    },
+    get C35() {
+      return C[35] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "store",
+        [_Location_column]: 18,
+        [_Location_line]: 22,
+        [_Location_file]: null
+      });
+    },
+    get C36() {
+      return C[36] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 36,
+        [_Location_line]: 22,
+        [_Location_file]: null
+      });
+    },
+    get C34() {
+      return C[34] = dart.constList([C[35] || CT.C35, C[36] || CT.C36], widget_inspector._Location);
+    },
+    get C33() {
+      return C[33] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[34] || CT.C34,
+        [_Location_name]: null,
+        [_Location_column]: 10,
+        [_Location_line]: 22,
+        [_Location_file]: "file:///C:/Users/prabe/Desktop/flutter/Nepal_Tourist_guide/guideme/lib/main.dart"
+      });
+    }
+  }, false);
+  var C = Array(37).fill(void 0);
+  var I = ["package:nepaltourisguide/main.dart"];
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  main.MyApp = class MyApp extends framework.StatelessWidget {
+    build(context) {
+      return new provider.MultiProvider.new({providers: T.JSArrayOfSingleChildWidget().of([new (T.ChangeNotifierProviderOfConnectivityProvider()).new({create: dart.fn(context => new connectivity_provider.ConnectivityProvider.new(), T.BuildContextToConnectivityProvider()), child: new homepage.Homepage.new({$creationLocationd_0dea112b090073317d4: C[0] || CT.C0}), $creationLocationd_0dea112b090073317d4: C[2] || CT.C2}), new (T.ChangeNotifierProviderOfConnectivityProvider()).new({create: dart.fn(contexT => new connectivity_provider.ConnectivityProvider.new(), T.BuildContextToConnectivityProvider()), child: new province1.PopularDestinations.new({$creationLocationd_0dea112b090073317d4: C[6] || CT.C6}), $creationLocationd_0dea112b090073317d4: C[7] || CT.C7})]), child: new app.MaterialApp.new({home: new homepage.Homepage.new({$creationLocationd_0dea112b090073317d4: C[11] || CT.C11}), debugShowCheckedModeBanner: false, themeMode: app.ThemeMode.light, theme: T.ThemeDataN().as(theme.Mytheme.lightTheme(context)), darkTheme: T.ThemeDataN().as(theme.Mytheme.darkTheme(context)), initialRoute: routes.Routes.homePage, routes: new (T.IdentityMapOfString$BuildContextToWidget()).from([routes.Routes.popularDestination, dart.fn(context => new province1.PopularDestinations.new({$creationLocationd_0dea112b090073317d4: C[12] || CT.C12}), T.BuildContextToPopularDestinations()), routes.Routes.nthg, dart.fn(context => new nthg.Nothing.new({$creationLocationd_0dea112b090073317d4: C[13] || CT.C13}), T.BuildContextToNothing()), routes.Routes.prov2, dart.fn(context => new province2.Province2.new({$creationLocationd_0dea112b090073317d4: C[14] || CT.C14}), T.BuildContextToProvince2()), routes.Routes.bagmati, dart.fn(context => new bagmati.BagmatiProvince.new({$creationLocationd_0dea112b090073317d4: C[15] || CT.C15}), T.BuildContextToBagmatiProvince()), routes.Routes.traveldesk, dart.fn(context => new traveldesk.TravelDesk.new({$creationLocationd_0dea112b090073317d4: C[16] || CT.C16}), T.BuildContextToTravelDesk()), routes.Routes.auth, dart.fn(context => new auth.Authentication.new({$creationLocationd_0dea112b090073317d4: C[17] || CT.C17}), T.BuildContextToAuthentication()), routes.Routes.signup, dart.fn(context => new signup.SignUp.new({$creationLocationd_0dea112b090073317d4: C[18] || CT.C18}), T.BuildContextToSignUp())]), $creationLocationd_0dea112b090073317d4: C[19] || CT.C19}), $creationLocationd_0dea112b090073317d4: C[28] || CT.C28});
+    }
+  };
+  (main.MyApp.new = function(opts) {
+    let key = opts && 'key' in opts ? opts.key : null;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    main.MyApp.__proto__.new.call(this, {key: key, $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = main.MyApp.prototype;
+  dart.addTypeTests(main.MyApp);
+  dart.addTypeCaches(main.MyApp);
+  dart.setMethodSignature(main.MyApp, () => ({
+    __proto__: dart.getMethods(main.MyApp.__proto__),
+    build: dart.fnType(framework.Widget, [framework.BuildContext])
+  }));
+  dart.setLibraryUri(main.MyApp, I[0]);
+  main.main = function main$() {
+    return async.async(dart.void, function* main$() {
+      binding.WidgetsFlutterBinding.ensureInitialized();
+      yield firebase_core.Firebase.initializeApp();
+      binding.runApp(new vxstate.VxState.new({store: new store.MyStore.new(), child: new main.MyApp.new({$creationLocationd_0dea112b090073317d4: C[32] || CT.C32}), $creationLocationd_0dea112b090073317d4: C[33] || CT.C33}));
+      system_chrome.SystemChrome.setPreferredOrientations(T.JSArrayOfDeviceOrientation().of([system_chrome.DeviceOrientation.portraitDown, system_chrome.DeviceOrientation.portraitUp]));
+    });
+  };
+  dart.trackLibraries("packages/nepaltourisguide/main.dart", {
+    "package:nepaltourisguide/main.dart": main
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["main.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UA8B4B;AACxB,YAAO,4CACQ,mCACT,oEACY,QAAC,WAAY,sGACd,6IACX,oEACU,QAAC,WAAY,sGACd,kKAGJ,+BACC,kHACsB,kBACP,8CACN,yBAAW,OAAO,iCACd,wBAAU,OAAO,kBACf,gCACb,yDACC,kCAAoB,QAAC,WAAY,0IACjC,oBAAM,QAAC,WAAY,6GACnB,qBAAO,QAAC,WAAY,sHACpB,uBAAS,QAAC,WAAY,gIACtB,0BAAY,QAAC,WAAY,yHACzB,oBAAM,QAAC,WAAY,2HACnB,sBAAQ,QAAC,WAAY;IAGtC;;;QA/BkB;;AAAQ,8CAAW,GAAG;;EAAC;;;;;;;;;AATlC;AACkC,MAAnB;AACQ,MAA9B,MAAe;AACkC,MAAjD,eAAO,gCAAe,gCAAkB;AAE2B,MADtD,oDACT,mCAAmB,8CAAgC;IACzD","file":"../../../../../../../packages/nepaltourisguide/main.dart.lib.js"}');
+  // Exports:
+  return {
+    main: main
+  };
+}));
+
+//# sourceMappingURL=main.dart.lib.js.map
