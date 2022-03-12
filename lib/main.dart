@@ -13,7 +13,6 @@ import 'package:nepaltourisguide/screens/signup.dart';
 import 'package:nepaltourisguide/utils/connectivity_provider.dart';
 import 'package:nepaltourisguide/utils/store.dart';
 import 'package:nepaltourisguide/widget/theme-Prabesh.dart';
-
 import 'package:provider/provider.dart';
 import 'package:velocity_x/velocity_x.dart';
 
