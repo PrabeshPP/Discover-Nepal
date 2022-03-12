@@ -15,7 +15,7 @@ import 'package:nepaltourisguide/utils/store.dart';
 import 'package:nepaltourisguide/widget/theme-Prabesh.dart';
 import 'package:provider/provider.dart';
 import 'package:velocity_x/velocity_x.dart';
-
+//
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
