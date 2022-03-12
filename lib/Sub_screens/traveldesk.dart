@@ -42,7 +42,7 @@ class TravelDesk extends StatelessWidget {
                                 topLeft: Radius.circular(20),
                                 topRight: Radius.circular(20)),
                             child: Image.network(
-                              "https://www.welcomenepal.com/uploads/activity/food-culinary_3.jpeg",
+                              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nepali_dal-bhat-tarkari.jpg/1200px-Nepali_dal-bhat-tarkari.jpg",
                               loadingBuilder: (BuildContext context,
                                   Widget child,
                                   ImageChunkEvent? loadingProgress) {
