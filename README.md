@@ -2,11 +2,6 @@
 
 This a tourism app created for the toursit to assist them while discovering new places in Nepal.This app has features such as Map,Weather,and the description of the places.Not only that,I have also add feature of providing feedback to add places and improve the app.I have used firebase in the backend to store the feedback.In Addition,this app also has authentication features.
 
-# Contribution
---I am looking for the help to move this project to MVVM Architecture.<br>
---If you want to contribute on this project.<br>
-Ping me at -<h6>prabesh.bista1000@gmail.com</h6>
-
 
 #Some Glimpse
 <div align="left">
