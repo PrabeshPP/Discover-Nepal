@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:ui';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:nepaltourisguide/PopularDestinations/gandaki-Prabesh.dart';
 import 'package:nepaltourisguide/PopularDestinations/karnali-Prabesh.dart';
@@ -24,7 +22,6 @@ class Homepage extends StatefulWidget {
 }
 
 class _HomepageState extends State<Homepage> {
-  bool tap_search = false;
   @override
   void initState() {
     super.initState();
@@ -50,15 +47,15 @@ class _HomepageState extends State<Homepage> {
         SystemUiOverlayStyle(systemNavigationBarColor: context.canvasColor));
     return Scaffold(
         appBar: AppBar(
-          
           automaticallyImplyLeading: false,
-          backgroundColor:context.canvasColor,
+          backgroundColor: context.canvasColor,
           elevation: 0.0,
           centerTitle: true,
           title: Text(
             "Discover Nepal",
             style: TextStyle(
-                fontWeight: FontWeight.bold, color: Colors.white),
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
         body: pageUI());
@@ -68,9 +65,7 @@ class _HomepageState extends State<Homepage> {
     return Consumer<ConnectivityProvider>(builder: (context, model, child) {
       if (model.isOnline == true) {
         return Container(
-          decoration: BoxDecoration(
-            color: context.canvasColor
-          ),
+          decoration: BoxDecoration(color: context.canvasColor),
           child: Column(
             children: [
               if (CartModel.item != null && CartModel.item!.isNotEmpty)
@@ -99,11 +94,12 @@ class _HomepageState extends State<Homepage> {
           Positioned(
               top: 700,
               child: VxBox(
-                child: Center(
-                  child: "No Internet!Connect to Wifi or Cellular Network.".text
-                  .color(Colors.white).make(),
-                )
-              )
+                      child: Center(
+                child: "No Internet!Connect to Wifi or Cellular Network."
+                    .text
+                    .color(Colors.white)
+                    .make(),
+              ))
                   .color(Colors.red)
                   .height(MediaQuery.of(context).size.height * 0.03)
                   .width(MediaQuery.of(context).size.width)
@@ -119,18 +115,16 @@ class ItemList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scrollbar(
-      child: ListView.builder(
-          itemCount: CartModel.item!.length,
-          itemBuilder: (context, index) {
-            final catalog = CartModel.item![index];
-            final num index1 = index;
-            return CatalogItem(
-              catalog: catalog,
-              index1: index1,
-            );
-          }),
-    );
+    return ListView.builder(
+        itemCount: CartModel.item!.length,
+        itemBuilder: (context, index) {
+          final catalog = CartModel.item![index];
+          final num index1 = index;
+          return CatalogItem(
+            catalog: catalog,
+            index1: index1,
+          );
+        });
   }
 }
 
@@ -216,6 +210,4 @@ class CatalogItem extends StatelessWidget {
           .p12(),
     );
   }
- 
 }
-

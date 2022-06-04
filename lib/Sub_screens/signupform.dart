@@ -188,6 +188,7 @@ class _SignUpFormState extends State<SignUpForm> {
                     TextFormField(
                       style: TextStyle(color: context.accentColor),
                       controller: ageController,
+                      keyboardType:TextInputType.phone,
                       decoration: InputDecoration(
                           hintText: "enter your age",
                           hintStyle: TextStyle(color: context.accentColor),
