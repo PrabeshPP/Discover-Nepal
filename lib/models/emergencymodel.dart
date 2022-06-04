@@ -6,35 +6,35 @@ class EmergencyModel{
 
 class Emergency {
   final String name;
-  final String Contact;
+  final String contact;
 
   Emergency({
     required this.name,
-    required this.Contact,
+    required this.contact,
   });
 
 
   Emergency copyWith({
     String? name,
-    String? Contact,
+    String? contact,
   }) {
     return Emergency(
       name: name ?? this.name,
-      Contact: Contact ?? this.Contact,
+      contact: contact ?? this.contact,
     );
   }
 
   Map<String, dynamic> toMap() {
     return {
       'name': name,
-      'Contact': Contact,
+      'Contact': contact,
     };
   }
 
   factory Emergency.fromMap(Map<String, dynamic> map) {
     return Emergency(
       name: map['name'],
-      Contact: map['Contact'],
+      contact: map['Contact'],
     );
   }
 
@@ -43,7 +43,7 @@ class Emergency {
   factory Emergency.fromJson(String source) => Emergency.fromMap(json.decode(source));
 
   @override
-  String toString() => 'Emergency(name: $name, Contact: $Contact)';
+  String toString() => 'Emergency(name: $name, Contact: $contact)';
 
   @override
   bool operator ==(Object other) {
@@ -51,9 +51,9 @@ class Emergency {
   
     return other is Emergency &&
       other.name == name &&
-      other.Contact == Contact;
+      other.contact == contact;
   }
 
   @override
-  int get hashCode => name.hashCode ^ Contact.hashCode;
+  int get hashCode => name.hashCode ^ contact.hashCode;
 }

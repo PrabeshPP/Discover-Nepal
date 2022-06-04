@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\DiscoverNepal\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-be\\values-be.xml",
+            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\Discover_Nepal\\Discover-Nepal\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
                     "source": "C:\\Users\\prabe\\.gradle\\caches\\transforms-2\\files-2.1\\4a1e8147c3db656939cfc830651ce63e\\jetified-play-services-basement-18.0.0\\res\\values-be\\values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\DiscoverNepal\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
+            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\Discover_Nepal\\Discover-Nepal\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-be\\values-be.xml",
             "map": [
                 {
                     "source": "C:\\Users\\prabe\\.gradle\\caches\\transforms-2\\files-2.1\\4a1e8147c3db656939cfc830651ce63e\\jetified-play-services-basement-18.0.0\\res\\values-be\\values.xml",

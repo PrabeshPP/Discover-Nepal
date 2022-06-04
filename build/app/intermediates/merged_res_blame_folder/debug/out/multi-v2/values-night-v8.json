@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\DiscoverNepal\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\Discover_Nepal\\Discover-Nepal\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\prabe\\OneDrive\\Desktop\\DiscoverNepal\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\prabe\\OneDrive\\Desktop\\Discover_Nepal\\Discover-Nepal\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

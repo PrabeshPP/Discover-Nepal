@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\DiscoverNepal\\build\\path_provider_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
+            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\Discover_Nepal\\Discover-Nepal\\build\\path_provider_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\prabe\\.gradle\\caches\\transforms-2\\files-2.1\\14b93615368c2249f1830e26ca064ab5\\core-1.6.0\\res\\values-sl\\values-sl.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\DiscoverNepal\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\values-sl\\values-sl.xml",
+            "outputFile": "C:\\Users\\prabe\\OneDrive\\Desktop\\Discover_Nepal\\Discover-Nepal\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\values-sl\\values-sl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\prabe\\.gradle\\caches\\transforms-2\\files-2.1\\14b93615368c2249f1830e26ca064ab5\\core-1.6.0\\res\\values-sl\\values-sl.xml",

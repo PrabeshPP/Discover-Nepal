@@ -12,49 +12,49 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:3:5-79
-15-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:3:22-76
+15-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:3:5-79
+15-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:3:22-76
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:4:5-81
-16-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:4:22-78
+16-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:4:5-81
+16-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:4:22-78
 17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-17-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:5:5-85
-17-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:5:22-82
+17-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:5:5-85
+17-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:5:22-82
 18    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-18-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:6:5-76
-18-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:6:22-74
+18-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:6:5-76
+18-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:6:22-74
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[:connectivity] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-19-->[:connectivity] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+19-->[:connectivity] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+19-->[:connectivity] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 20
 21    <application
-21-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:7:4-52:19
+21-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:7:4-52:19
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.6.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:9:9-43
+24-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="Discover Nepal"
-25-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:8:9-39
+25-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:8:9-39
 26        android:usesCleartextTraffic="true" >
-26-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:10:9-44
+26-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:10:9-44
 27        <activity
-27-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:12:9-40:20
+27-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:12:9-40:20
 28            android:name="com.example.nepaltourisguide.MainActivity"
-28-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:13:13-41
+28-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:13:13-41
 29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-29-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:16:13-163
+29-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:16:13-163
 30            android:hardwareAccelerated="true"
-30-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:17:13-47
+30-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:17:13-47
 31            android:launchMode="singleTop"
-31-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:14:13-43
+31-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:14:13-43
 32            android:theme="@style/LaunchTheme"
-32-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:15:13-47
+32-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:15:13-47
 33            android:windowSoftInputMode="adjustResize" >
-33-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:18:13-55
+33-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:18:13-55
 34
 35            <!--
 36                 Specifies an Android theme to apply to this Activity as soon as
@@ -63,11 +63,11 @@
 39                 to determine the Window background behind the Flutter UI.
 40            -->
 41            <meta-data
-41-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:23:13-26:17
+41-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:23:13-26:17
 42                android:name="io.flutter.embedding.android.NormalTheme"
-42-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:24:15-70
+42-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:24:15-70
 43                android:resource="@style/NormalTheme" />
-43-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:25:15-52
+43-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:25:15-52
 44            <!--
 45                 Displays an Android View that continues showing the launch screen
 46                 Drawable until Flutter paints its first frame, then this splash
@@ -76,21 +76,21 @@
 49                 Flutter's first frame.
 50            -->
 51            <meta-data
-51-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:32:13-35:17
+51-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:32:13-35:17
 52                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-52-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:33:15-79
+52-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:33:15-79
 53                android:resource="@drawable/launch_background" />
-53-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:34:15-61
+53-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:34:15-61
 54
 55            <intent-filter>
-55-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:36:13-39:29
+55-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:36:13-39:29
 56                <action android:name="android.intent.action.MAIN" />
-56-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:37:17-68
-56-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:37:25-66
+56-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:37:17-68
+56-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:37:25-66
 57
 58                <category android:name="android.intent.category.LAUNCHER" />
-58-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:38:17-76
-58-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:38:27-74
+58-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:38:17-76
+58-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:38:27-74
 59            </intent-filter>
 60        </activity>
 61        <!--
@@ -98,60 +98,60 @@
 63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 64        -->
 65        <meta-data
-65-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:43:9-45:33
+65-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:43:9-45:33
 66            android:name="flutterEmbedding"
-66-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:44:13-44
+66-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:44:13-44
 67            android:value="2" />
-67-->C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\android\app\src\main\AndroidManifest.xml:45:13-30
+67-->C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\android\app\src\main\AndroidManifest.xml:45:13-30
 68
-69        <activity
-69-->[:url_launcher_android] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
-70            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-70-->[:url_launcher_android] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
-71            android:exported="false"
-71-->[:url_launcher_android] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
-72            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-72-->[:url_launcher_android] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
-73
-74        <service
-74-->[:firebase_database] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-75            android:name="com.google.firebase.components.ComponentDiscoveryService"
-75-->[:firebase_database] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-76            android:directBootAware="true"
-76-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-77            android:exported="false" >
-77-->[com.google.firebase:firebase-database:20.0.3] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:31:13-37
-78            <meta-data
-78-->[:firebase_database] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-79-->[:firebase_database] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[:firebase_database] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-81            <meta-data
-81-->[:firebase_auth] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-82-->[:firebase_auth] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[:firebase_auth] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-84            <meta-data
-84-->[:firebase_core] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-85-->[:firebase_core] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-86                android:value="com.google.firebase.components.ComponentRegistrar" />
-86-->[:firebase_core] C:\Users\prabe\OneDrive\Desktop\DiscoverNepal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-87            <meta-data
-87-->[com.google.firebase:firebase-database:20.0.3] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
-88                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-88-->[com.google.firebase:firebase-database:20.0.3] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
-89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[com.google.firebase:firebase-database:20.0.3] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
-90            <meta-data
-90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-93        </service>
+69        <service
+69-->[:firebase_auth] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+70            android:name="com.google.firebase.components.ComponentDiscoveryService"
+70-->[:firebase_auth] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+71            android:directBootAware="true"
+71-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+73            <meta-data
+73-->[:firebase_auth] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+74-->[:firebase_auth] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_auth] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[:firebase_database] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+77-->[:firebase_database] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_database] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[:firebase_core] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+80-->[:firebase_core] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_core] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+83                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-database:20.0.3] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+86                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+86-->[com.google.firebase:firebase-database:20.0.3] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-database:20.0.3] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+88        </service>
+89
+90        <activity
+90-->[:url_launcher_android] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+91            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+91-->[:url_launcher_android] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+92            android:exported="false"
+92-->[:url_launcher_android] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+93            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+93-->[:url_launcher_android] C:\Users\prabe\OneDrive\Desktop\Discover_Nepal\Discover-Nepal\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
 94
 95        <uses-library
 95-->[androidx.window:window:1.0.0-beta04] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
@@ -167,142 +167,142 @@
 100-->[androidx.window:window:1.0.0-beta04] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 101
 102        <activity
-102-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
-103            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-103-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+103            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
 104            android:excludeFromRecents="true"
-104-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
-105            android:exported="false"
-105-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
-106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-106-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
-107        <!--
-108            Service handling Google Sign-In user revocation. For apps that do not integrate with
-109            Google Sign-In, this service will never be started.
-110        -->
-111        <service
-111-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
-112            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-112-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
-113            android:exported="true"
-113-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
-114            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-114-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
-115            android:visibleToInstantApps="true" />
-115-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
-116
-117        <activity
-117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-118            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-119            android:excludeFromRecents="true"
-119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-120            android:exported="true"
-120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-121            android:launchMode="singleTask"
-121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-123            <intent-filter>
-123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-124                <action android:name="android.intent.action.VIEW" />
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-125
-126                <category android:name="android.intent.category.DEFAULT" />
-126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-127                <category android:name="android.intent.category.BROWSABLE" />
-127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+105            android:exported="true"
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+106            android:launchMode="singleTask"
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+108            <intent-filter>
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+109                <action android:name="android.intent.action.VIEW" />
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+112                <category android:name="android.intent.category.BROWSABLE" />
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+113
+114                <data
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+115                    android:host="firebase.auth"
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+116                    android:path="/"
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+117                    android:scheme="genericidp" />
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+118            </intent-filter>
+119        </activity>
+120        <activity
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+121            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+122            android:excludeFromRecents="true"
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+123            android:exported="true"
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+124            android:launchMode="singleTask"
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+126            <intent-filter>
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+127                <action android:name="android.intent.action.VIEW" />
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 128
-129                <data
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-130                    android:host="firebase.auth"
-130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-131                    android:path="/"
-131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-132                    android:scheme="genericidp" />
-132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-133            </intent-filter>
-134        </activity>
-135        <activity
-135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-136            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-137            android:excludeFromRecents="true"
-137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-138            android:exported="true"
-138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-139            android:launchMode="singleTask"
-139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-141            <intent-filter>
-141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-142                <action android:name="android.intent.action.VIEW" />
-142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-143
-144                <category android:name="android.intent.category.DEFAULT" />
-144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-145                <category android:name="android.intent.category.BROWSABLE" />
-145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-146
-147                <data
-147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-148                    android:host="firebase.auth"
-148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-149                    android:path="/"
-149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-150                    android:scheme="recaptcha" />
-150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-151            </intent-filter>
-152        </activity>
-153
-154        <service
-154-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-155            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-156            android:enabled="true"
-156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-157            android:exported="false" >
-157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-158            <intent-filter>
-158-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-159                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-160
-161                <category android:name="android.intent.category.DEFAULT" />
-161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-162            </intent-filter>
-163        </service>
-164
-165        <activity
-165-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-166            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-166-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-167            android:exported="false"
-167-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-168            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-168-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-169
-170        <provider
-170-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-171            android:name="com.google.firebase.provider.FirebaseInitProvider"
-171-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-172            android:authorities="com.example.nepaltourisguide.firebaseinitprovider"
-172-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-173            android:directBootAware="true"
-173-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+130                <category android:name="android.intent.category.BROWSABLE" />
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+131
+132                <data
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+133                    android:host="firebase.auth"
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+134                    android:path="/"
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+135                    android:scheme="recaptcha" />
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+136            </intent-filter>
+137        </activity>
+138
+139        <service
+139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+140            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+141            android:enabled="true"
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+142            android:exported="false" >
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+143            <intent-filter>
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+144                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+145
+146                <category android:name="android.intent.category.DEFAULT" />
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+147            </intent-filter>
+148        </service>
+149
+150        <provider
+150-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+151            android:name="com.google.firebase.provider.FirebaseInitProvider"
+151-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+152            android:authorities="com.example.nepaltourisguide.firebaseinitprovider"
+152-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+153            android:directBootAware="true"
+153-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+154            android:exported="false"
+154-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+155            android:initOrder="100" />
+155-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+156
+157        <activity
+157-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+158            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+158-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+159            android:excludeFromRecents="true"
+159-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+162        <!--
+163            Service handling Google Sign-In user revocation. For apps that do not integrate with
+164            Google Sign-In, this service will never be started.
+165        -->
+166        <service
+166-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+167            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+167-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+168            android:exported="true"
+168-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+169            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+169-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+170            android:visibleToInstantApps="true" />
+170-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\850ef13ec2cd7a7ea527ff79a705c18a\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+171
+172        <activity
+172-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+173            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+173-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 174            android:exported="false"
-174-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-175            android:initOrder="100" />
-175-->[com.google.firebase:firebase-common:20.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+174-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+175-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 176
 177        <meta-data
 177-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\prabe\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
