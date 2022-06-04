@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nepaltourisguide/Sub_screens/profile.dart';
 import 'package:nepaltourisguide/screens/detail_homepage.dart';
@@ -48,7 +47,6 @@ class _DetailHomepage1State extends State<DetailHomepage1> {
               setState(() {
                 pageindex = value;
               });
-              ;
             },
             type: BottomNavigationBarType.fixed,
             items: [

@@ -39,14 +39,14 @@ class Description extends StatelessWidget {
             VxBox(
                       child: Column(
                 children: [
-                  "${name}"
+                  "$name"
                       .text
                       .color(Colors.blue)
                       .bold
                       .xl2
                       .make()
                       .pOnly(top: 8,bottom: 16),
-                  "${desc}".text.color(context.accentColor).xl.bold.make()
+                  "$desc".text.color(context.accentColor).xl.bold.make()
                 ],
               ))
                   .color(context.canvasColor)

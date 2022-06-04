@@ -55,6 +55,7 @@ class _MapPageState extends State<MapPage> {
     } catch (e) {
       print(e);
     }
+    return null;
   }
 
   @override

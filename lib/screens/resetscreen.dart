@@ -1,5 +1,4 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -89,7 +88,6 @@ class _ResetScreen extends State<ResetScreen> {
   }
 
   void Pass_reset() {
-    ;
     firebaseAuth.sendPasswordResetEmail(email: _email.text);
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(duration:Duration(seconds: 3),
       content: Text("Password reset link has been sent to your email")));

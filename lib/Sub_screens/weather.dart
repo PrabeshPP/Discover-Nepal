@@ -37,7 +37,6 @@ class _MyWeatherState extends State<MyWeather> {
     } else if (time.hour < 6 || time.hour >= 19) {
       BGimg = "Assets/Images/night.jpg";
     }
-    ;
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -77,7 +76,7 @@ class _MyWeatherState extends State<MyWeather> {
                     child: VxBox(
                         child: Row(
                       children: [
-                        "${realtime}".text.xl2.color(Colors.white).make()
+                        "$realtime".text.xl2.color(Colors.white).make()
                       ],
                     )).make()),
                 Positioned(

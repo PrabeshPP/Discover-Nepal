@@ -48,8 +48,8 @@ class PlaceDesc extends StatelessWidget {
             VxBox(
                     child: Column(
               children: [
-                "${name}".text.bold.xl2.color(context.accentColor).make().pOnly(top: 8),
-                "${desc}".text.xl.bold.color(context.accentColor).make().pOnly(top: 12)
+                "$name".text.bold.xl2.color(context.accentColor).make().pOnly(top: 8),
+                "$desc".text.xl.bold.color(context.accentColor).make().pOnly(top: 12)
               ],
             ))
                 .width(MediaQuery.of(context).size.width * 0.95)

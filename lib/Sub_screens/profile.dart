@@ -1,7 +1,6 @@
 import 'dart:math';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nepaltourisguide/screens/signup.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -389,7 +388,7 @@ class _BodyState extends State<Body> {
     Random random = Random();
     int randnum = random.nextInt(200);
     databaseRef1
-        .child("Suggest some place${randnum} by ${widget.name}")
+        .child("Suggest some place$randnum by ${widget.name}")
         .set({"Suggested place": Placename.text}).then((value) {
       Navigator.pop(context);
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
