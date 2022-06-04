@@ -4,8 +4,8 @@ This a tourism app created for the toursit to assist them while discovering new 
 
 # How to Run this Project
 In order to build the application, make sure you have installed flutter in your machine and run these commands :
-flutter pub get
-flutter run
+    flutter pub get
+    flutter run
 
 # Some Glimpse
 <div align="left">
