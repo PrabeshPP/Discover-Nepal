@@ -1,7 +1,6 @@
 # Discover-Nepal
 
-This is my first flutter project,created seven months ago.
-This Project is related to tourism in Nepal.It has map, and weather features.
+This a tourism app created for the toursit to assist them while discovering new places in Nepal.This app has features such as Map,Weather,and the description of the places.Not only that,I have also add feature of providing feedback to add places and improve the app.I have used firebase in the backend to store the feedback.In Addition,this app also has authentication features.
 
 # Contribution
 --I am looking for the help to move this project to MVVM Architecture.<br>
