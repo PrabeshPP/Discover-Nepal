@@ -22,8 +22,8 @@ class _EmergencypageState extends State<Emergencypage> {
   loadDataE() async {
     final emergencyData =
         await rootBundle.loadString("Assets/files/emergencycontact.json");
-    final decode_emergencyData = jsonDecode(emergencyData);
-    var dataE = decode_emergencyData["Emergency Contacts"];
+    final decodeEmergencyData = jsonDecode(emergencyData);
+    var dataE = decodeEmergencyData["Emergency Contacts"];
     EmergencyModel.emergency =
         List.from(dataE).map<Emergency>((xe) => Emergency.fromMap(xe)).toList();
     setState(() {});
@@ -52,17 +52,17 @@ class EmergencyList extends StatelessWidget {
     return ListView.builder(
         itemCount: EmergencyModel.emergency!.length,
         itemBuilder: (BuildContext, index) {
-          final E_Data = EmergencyModel.emergency![index];
+          final EData = EmergencyModel.emergency![index];
           return EmergencyItems(
-            E_data: E_Data,
+            E_data: EData,
           );
         });
   }
 }
 
 class EmergencyItems extends StatelessWidget {
-  final E_data;
-  
+  final Emergency? E_data;
+
   const EmergencyItems({Key? key, this.E_data}) : super(key: key);
 
   @override
@@ -71,13 +71,13 @@ class EmergencyItems extends StatelessWidget {
     return VxBox(
       child: InkWell(
         onTap: () {
-          _makingPhoneCall(number: E_data.Contact);
+          _makingPhoneCall(number: E_data!.contact);
         },
         child: VxBox(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              "${E_data.name}"
+              "${E_data!.name}"
                   .text
                   .xl
                   .bold
@@ -91,12 +91,7 @@ class EmergencyItems extends StatelessWidget {
                     size: 35,
                     color: Colors.blue,
                   ).px(12),
-                  "${E_data.Contact}"
-                      .text
-                      .color(Colors.black)
-                      .xl2
-                      .bold
-                      .make()
+                  "${E_data!.contact}".text.color(Colors.black).xl2.bold.make()
                 ],
               )
             ],
@@ -112,8 +107,8 @@ class EmergencyItems extends StatelessWidget {
 }
 
 _makingPhoneCall({number}) async {
-  var phone_number = number;
-  var url = 'tel:$phone_number';
+  var phoneNumber = number;
+  var url = 'tel:$phoneNumber';
   if (await canLaunch(url)) {
     await launch(url);
   } else {

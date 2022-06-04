@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-class EmergencyModel{
+class EmergencyModel {
   static List<Emergency>? emergency;
 }
 
@@ -8,11 +8,13 @@ class Emergency {
   final String name;
   final String contact;
 
+  String get name1 => name;
+  String get contactNumber => contact;
+
   Emergency({
     required this.name,
     required this.contact,
   });
-
 
   Emergency copyWith({
     String? name,
@@ -40,7 +42,8 @@ class Emergency {
 
   String toJson() => json.encode(toMap());
 
-  factory Emergency.fromJson(String source) => Emergency.fromMap(json.decode(source));
+  factory Emergency.fromJson(String source) =>
+      Emergency.fromMap(json.decode(source));
 
   @override
   String toString() => 'Emergency(name: $name, Contact: $contact)';
@@ -48,10 +51,8 @@ class Emergency {
   @override
   bool operator ==(Object other) {
     if (identical(this, other)) return true;
-  
-    return other is Emergency &&
-      other.name == name &&
-      other.contact == contact;
+
+    return other is Emergency && other.name == name && other.contact == contact;
   }
 
   @override
