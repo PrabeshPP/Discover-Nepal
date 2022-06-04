@@ -2,8 +2,12 @@
 
 This a tourism app created for the toursit to assist them while discovering new places in Nepal.This app has features such as Map,Weather,and the description of the places.Not only that,I have also add feature of providing feedback to add places and improve the app.I have used firebase in the backend to store the feedback.In Addition,this app also has authentication features.
 
+# How to Run this Project
+In order to build the application, make sure you have installed flutter in your machine and run these commands :
+flutter pub get
+flutter run
 
-#Some Glimpse
+# Some Glimpse
 <div align="left">
  <img src="https://github.com/PrabeshPP/Discover-Nepal/blob/master/ScreenShots/1.jpg" width="250" height="400">  <img src="https://github.com/PrabeshPP/Discover-Nepal/blob/master/ScreenShots/2.jpg" width="250" height="400">
 </div>
